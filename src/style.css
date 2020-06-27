@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header*/
+
+.header {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+    background-color: #63Caa7;
+}
+
+.logo {
+    margin-top: 3px;
+    margin-left: 1.7rem;
+}
+
+
+/* .navegador {
+    display: flex;
+  } */
+
+.navegador ul li {
+    display: inline-block;
+    margin: 0 10px;
+    /*margen entre las etiquetas <a> menu, atletas.etc*/
+    position: relative;
+}
+
+
+/*.navegador ul li */
+
+a {
+    padding: 0.5rem 1rem;
+    color: grey;
+    text-decoration: none;
+    /*le estamos quitando el subrayado azul que tine por defaul*/
+    font-size: 1.3em;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
