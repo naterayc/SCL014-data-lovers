@@ -84,3 +84,10 @@ Esta página web estará diseñada para público en general, sin rango etario de
 
 ### Historias de usuario
 
+![u1](SCL014-data-lovers\src\imagenes\u2.jpg)
+![u2](SCL014-data-lovers\src\imagenes\u1.jpg)
+![u3](SCL014-data-lovers\src\imagenes\u3.jpg)
+![u4](SCL014-data-lovers\src\imagenes\u4.jpg)
+![u5](SCL014-data-lovers\src\imagenes\u5.jpg)
+![u6](SCL014-data-lovers\src\imagenes\u6.jpg)
+![u7](SCL014-data-lovers\src\imagenes\u7.jpg)
