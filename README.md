@@ -19,8 +19,8 @@ Cómo sabemos el máximo sueño de muchos atletas es poder representar a su paí
 
 En este sentido el cliente se encontraba con un problema definido respecto al objeto de estudio, el cual se muestra en la imagen, asociado a la **"inexistencia de una página web que contenga información de los atletas que han ganado medallas en los juegos olímpico"**. Asimismo, se plantea como solución: **crear una página web gratuita, dónde se puedan mostrar datos personales y profesionales de los atletas que han ganado medallas de oro en las olimpiadas.**
 
-![ux1](SCL014-data-lovers\src\imagenes\ux1.jpeg)
-![ux2](SCL014-data-lovers\src\imagenes\ux2.jpeg)
+![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cux1.jpeg)
+![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/ux2.jpeg?raw=true)
 
 
 ## 2. Nombre del proyecto y empresa desarrolladora
@@ -34,7 +34,7 @@ Asimismo, se diseñó un logo el cual se aprecia en la siguiente imagen, que com
 * Anillos olímpicos ícono de los juegos.
 * Estrellas, por los atletas. 
 
-![athlos](SCL014-data-lovers\src\imagenes\athlos.jpeg)
+![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/athlos.jpeg?raw=true)
 
 La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel Services**, quienes son el canal oficial de los juegos olímpicos. En este sentido **Athlos**, estaría como link dentro de esta página web, según especificaciones del cliente.
 
@@ -48,7 +48,7 @@ La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel S
 * Porque no es de desconocimiento que el ámbito de los juegos olímpicos y todo lo que le contempla es de gran interés por muchos usuarios, a los que no sólo les gusta el deporte, además, sienten amor y pasión por ver representado a sus países en este evento mundial y de gran relevancia.
 
 
-![depo](SCL014-data-lovers\src\imagenes\depo.jpg)
+![depo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/depo.jpg?raw=true)
 
 
 ## 4. Datos generales de la página web
@@ -59,7 +59,7 @@ No obstante, se exponen los gastos para su creación que hacen referencia a: dis
 
 Se persigue que la interfaz sea un conjunto de formularios que jueguen con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data.
 
-![colores](SCL014-data-lovers\src\imagenes\colores.jpeg)
+![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg?raw=true)
 
 
 Los datos del producto hacen referencia a: 
@@ -84,10 +84,10 @@ Esta página web estará diseñada para público en general, sin rango etario de
 
 ### Historias de usuario
 
-![u1](SCL014-data-lovers\src\imagenes\u2.jpg)
-![u2](SCL014-data-lovers\src\imagenes\u1.jpg)
-![u3](SCL014-data-lovers\src\imagenes\u3.jpg)
-![u4](SCL014-data-lovers\src\imagenes\u4.jpg)
-![u5](SCL014-data-lovers\src\imagenes\u5.jpg)
-![u6](SCL014-data-lovers\src\imagenes\u6.jpg)
-![u7](SCL014-data-lovers\src\imagenes\u7.jpg)
+![u1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu2.jpg)
+![u2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu1.jpg)
+![u3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu3.jpg)
+![u4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu4.jpg)
+![u5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu5.jpg)
+![u6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu6.jpg)
+![u7](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu7.jpg)
