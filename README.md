@@ -19,7 +19,7 @@ Cómo sabemos el máximo sueño de muchos atletas es poder representar a su paí
 
 En este sentido el cliente se encontraba con un problema definido respecto al objeto de estudio, el cual se muestra en la imagen, asociado a la **"inexistencia de una página web que contenga información de los atletas que han ganado medallas en los juegos olímpico"**. Asimismo, se plantea como solución: **crear una página web gratuita, dónde se puedan mostrar datos personales y profesionales de los atletas que han ganado medallas de oro en las olimpiadas.**
 
-![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cux1.jpeg)
+![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/raw/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cux1.jpeg)
 ![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/ux2.jpeg?raw=true)
 
 
