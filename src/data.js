@@ -1,5 +1,5 @@
 // estas funciones son de ejemplo
 
-export const example = () => 'example';
+export const filterData = () => 'example';
 
-export const anotherExample = () => 'OMG';
+export const sortData = () => 'OMG';
