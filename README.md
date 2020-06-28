@@ -82,7 +82,7 @@ Esta página web estará diseñada para público en general, sin rango etario de
 **Athlos**, es un buscador de medallistas olímpicos, que invita a conocerlos de forma fácil (mediante sus datos personales y profesionales), rápida y ordenada.
 
 
-### Historias de usuario
+Se persigue que la interfaz sea un conjunto de formularios que jueguen con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data.
 
 ![u1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu2.jpg)
 ![u2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu1.jpg)
