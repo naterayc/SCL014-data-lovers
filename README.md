@@ -34,7 +34,11 @@ Asimismo, se diseñó un logo el cual se aprecia en la siguiente imagen, que com
 * Anillos olímpicos ícono de los juegos.
 * Estrellas, por los atletas. 
 
+<<<<<<< HEAD
 ![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/athlos.jpeg?raw=true)
+=======
+![athlos](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/img/3c209e49-fcd9-460d-9e43-7fcce96bb973.jpg?raw=true)
+>>>>>>> 949bd18... img athlos
 
 La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel Services**, quienes son el canal oficial de los juegos olímpicos. En este sentido **Athlos**, estaría como link dentro de esta página web, según especificaciones del cliente.
 
