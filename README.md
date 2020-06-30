@@ -19,7 +19,7 @@ Cómo sabemos el máximo sueño de muchos atletas es poder representar a su paí
 
 En este sentido el cliente se encontraba con un problema definido respecto al objeto de estudio, el cual se muestra en la imagen, asociado a la **"inexistencia de una página web que contenga información de los atletas que han ganado medallas en los juegos olímpico"**. Asimismo, se plantea como solución: **crear una página web gratuita, dónde se puedan mostrar datos personales y profesionales de los atletas que han ganado medallas de oro en las olimpiadas.**
 
-![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/raw/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cux1.jpeg)
+![ux1](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/ux1.jpeg?raw=true)
 ![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/ux2.jpeg?raw=true)
 
 
@@ -34,7 +34,7 @@ Asimismo, se diseñó un logo el cual se aprecia en la siguiente imagen, que com
 * Anillos olímpicos ícono de los juegos.
 * Estrellas, por los atletas. 
 
-![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/athlos.jpeg?raw=true)
+![athlos](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/logo.png?raw=true)
 
 La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel Services**, quienes son el canal oficial de los juegos olímpicos. En este sentido **Athlos**, estaría como link dentro de esta página web, según especificaciones del cliente.
 
@@ -48,7 +48,7 @@ La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel S
 * Porque no es de desconocimiento que el ámbito de los juegos olímpicos y todo lo que le contempla es de gran interés por muchos usuarios, a los que no sólo les gusta el deporte, además, sienten amor y pasión por ver representado a sus países en este evento mundial y de gran relevancia.
 
 
-![depo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/depo.jpg?raw=true)
+![depo](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/depo.jpg?raw=true)
 
 
 ## 4. Datos generales de la página web
@@ -59,7 +59,7 @@ No obstante, se exponen los gastos para su creación que hacen referencia a: dis
 
 Se persigue que la interfaz sea un conjunto de formularios que jueguen con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data.
 
-![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg?raw=true)
+![colores](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg?raw=true)
 
 
 [![Athlos](http://i3.ytimg.com/vi/qj-YKrzOzIM/hqdefault.jpg)](https://youtu.be/qj-YKrzOzIM "Athlos")
@@ -87,8 +87,9 @@ Esta página web estará diseñada para público en general, sin rango etario de
 **Athlos**, es un buscador de medallistas olímpicos, que invita a conocerlos de forma fácil (mediante sus datos personales y profesionales), rápida y ordenada.
 
 
-### Historias de usuario
+Se persigue que la interfaz sea un conjunto de formularios que jueguen con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data.
 
+<<<<<<< HEAD
 **Usuarios y objetivos con relación al producto**
 
 ![u1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu2.jpg)
@@ -145,3 +146,12 @@ Aplicación y anexos complementarios
 [link] https://trello.com/b/TsavtLXm/planificaci%C3%B3n-athlos
 
 **Link para utilizar Athlos, buscador de medallistas olimpicos** 
+=======
+![u1](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u2.jpg?raw=true)
+![u2](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u1.jpg?raw=true)
+![u3](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u3.jpg?raw=true)
+![u4](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u4.jpg?raw=true)
+![u5](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u5.jpg?raw=true)
+![u6](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u6.jpg?raw=true)
+![u7](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/u7.jpg?raw=true)
+>>>>>>> c800e876c9505ec30f47b67eb60daea215a78616
