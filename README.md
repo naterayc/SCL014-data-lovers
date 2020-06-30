@@ -62,14 +62,19 @@ Se persigue que la interfaz sea un conjunto de formularios que jueguen con una p
 ![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg?raw=true)
 
 
+[![Athlos](http://i3.ytimg.com/vi/qj-YKrzOzIM/hqdefault.jpg)](https://youtu.be/qj-YKrzOzIM "Athlos")
+
+
 Los datos del producto hacen referencia a: 
 * Página web (responsiva)
 * Página de inicio compuesta por:
     * Header
-      * Conócenos: ¿Qué es Athlos?, ¿Por qué nace?
       * Atletas: Posibilidad de recargar fotos e información principal.
-      * Filtrar: Según necesidades de los usuarios.
+      * Disciplina: Tipo de deporte que practican los usuarios.
+      * País: Estado al que representan.
+      * Género: Femenino y masculino.
     * Cuerpo
+      * Barra para buscar atletas por su nombre.
       * Fotografías con nombres y abreviaturas del país al que representan y especialidad
     * Footer
       * Logo, empresa, año de creación, desarrolladoras y redes sociales oficiales del cliente.
@@ -84,10 +89,59 @@ Esta página web estará diseñada para público en general, sin rango etario de
 
 ### Historias de usuario
 
+**Usuarios y objetivos con relación al producto**
+
 ![u1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu2.jpg)
+
+Tras la lectura e investigación sobre los atletas olímpicos, se buscó perfiles de usuarios que pudiesen sentirse atraídos por este tema. En este sentido, a través de formularios de Google se distribuyó un cuestionario que nos ayudaron no solo a conocer a los usuarios, además a tener una visión de los posibles requerimientos para el desarrollo de la página web.
+El análisis de los datos suministrados por los usuarios, nos arrojó que la encuesta fue respondida por personas, masculinas y femeninas, que se encuentran en un rango de edades comprendido entre los 18 y 50 años, además son procedentes o están residenciados en países como: Chile, Venezuela, Costa Rica, Japón y Argentina según porcentaje de respuesta.
+
 ![u2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu1.jpg)
+
+Asimismo, se evidencia que, el 58% de los usuarios son deportista, estos practican cada uno, una de las siguientes disciplinas: judo, yoga, fútbol, karate y básquetbol. Algunos de forma profesional y otros como hobbies. Las preguntas relacionadas a la ocupación de nuestros usuarios nos permitieron poder definir nuestras posibles historias de usuarios, las cuales se especificarán más adelante en el siguiente apartado.
+
 ![u3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu3.jpg)
+
+En lo que respecta al tópico de las olimpiadas, el 100% de los usuarios se declaró aficionado a los juegos olímpicos, mientras que el 92% expresa ser seguidor de las olimpiadas y juegos previos que dan como resultado la clasificación al magno evento. Finalmente, el 100% afirmó poseer una disciplina favorita dentro de los juegos olímpicos, la cual no se pierden en las trasmisiones televisadas.E
+
 ![u4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu4.jpg)
+
+Dentro de las disciplinas con más aceptación por parte de los usuarios se encuentran: natación, atletismo, esgrima y tenis. Los usuarios, además, declararon en un 75% poseer un atleta favorito que se correspondía con dichas disciplinas.
+
 ![u5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu5.jpg)
+
+Nombres como: Elvismar Rodríguez, Michael Phelps, Roger Federer y Yulimar Rojas son algunos de los que más resaltan o fueron recordados por los usuarios mientras respondían la encuesta.
+
 ![u6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu6.jpg)
+
+Adentrándonos al objetivo de esta investigación propiamente dicho, que hace referencia a la propuesta y creación de una página web, se les preguntó a los usuarios cuales serían los datos con los que les gustaría encontrarse al investigar o buscar sobre atletas olímpicos. Un 64% afirmaron que datos personales (nombre, peso, talla, edad, país que representa, fotografía) y datos profesionales del atleta (especialidad, número de medallas ganadas, juego y olimpiadas a las que ha asistido) son imprescindibles en su búsqueda.
+
+En lo que respecta a él ¿Para qué verías una página web de atletas?, el 75% de los usuarios respondió que la usarían para buscar datos personales y profesionales de los atletas, mientras que un 50% para investigar a su rival y un 25% para investigaciones deportivas, como por ejemplo la redacción de un artículo o nota periodística.
+
+Finalmente, dentro de los filtros que buscarían, entendiendo que la información sobre los atletas puede llegar a ser extensa y los usuarios generalmente o no disponen de mucho tiempo para estar en el sitio web o tienden a aburrirse al no entender la página, se encontraron: género, país, disciplina y nombre del atleta.
+
 ![u7](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/SCL014-data-lovers%5Csrc%5Cimagenes%5Cu7.jpg)
+
+Establecimiento de las historias de usuarios 
+
+
+
+Prototipo de baja fidelidad 
+
+https://namastheyssoledadbaspe903212.invisionapp.com/public/share/NY18EIBR2M#screens/479046376
+
+
+Aplicación y anexos complementarios
+
+**Formulario encuesta primer acercamiento usuarios Athlos** 
+
+[link] https://docs.google.com/forms/d/e/1FAIpQLScHE9-FVxDOFR9FoitXKXsF5OwDPL2Y32W67gtyFaqnwmSZKw/viewform?usp=sf_link
+
+**Trello** 
+
+![trello](src\imagenes\trello.png)
+
+
+[link] https://trello.com/b/TsavtLXm/planificaci%C3%B3n-athlos
+
+**Link para utilizar Athlos, buscador de medallistas olimpicos** 

@@ -12,11 +12,10 @@ html {
 /* header*/
 
 .header {
-    height: 5rem;
+    height: 15%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0;
     width: 100%;
     background-color: #63Caa7;
 }
@@ -24,6 +23,8 @@ html {
 .logo {
     margin-top: 3px;
     margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    width: 15%;
 }
 
 
@@ -31,24 +32,119 @@ html {
     display: flex;
   } */
 
-.navegador ul li {
-    display: inline-block;
+.navegador {
+    display: flex;
     margin: 0 10px;
+    justify-content: space-between;
+    width: 75%;
     /*margen entre las etiquetas <a> menu, atletas.etc*/
-    position: relative;
+}
+
+.navegador a:hover {
+    color: gray;
 }
 
 
-/*.navegador ul li */
+/*.navegador */
 
 a {
-    padding: 0.5rem 1rem;
-    color: grey;
+    color: white;
     text-decoration: none;
     /*le estamos quitando el subrayado azul que tine por defaul*/
+    display: flex;
+    align-items: center;
+    padding: 0 .2rem 0 .2rem;
+}
+
+.nav {
     font-size: 1.3em;
     font-family: monospace;
     text-align: center;
+    margin: auto;
+}
+
+
+/* seccion disciplinas */
+
+#container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor {
+    position: relative;
+    width: 12%;
+    background-color: white;
+    border: 2px solid #26798e;
+    border-radius: 5%;
+    margin: 1rem auto 1rem auto;
+    padding: .2rem;
+    box-sizing: border-box;
+}
+
+.disciplina {
+    width: 70%;
+    position: auto;
+    margin-left: 14%;
+}
+
+.text {
+    text-align: center;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+
+/* footer */
+
+footer {
+    height: 10%;
     display: flex;
     align-items: center;
+    width: 100%;
+    background-color: #63Caa7;
+}
+
+.textFooter {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: monospace;
+    margin: 0 0 0 1rem;
+}
+
+#athlos {
+    font-size: 1.3rem;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    width: 50%;
+    float: none;
+}
+
+.navFooter {
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+    padding: .3rem;
+    justify-content: space-between;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+.barra-inferior {
+    display: flex;
+    position: relative;
+    right: -18rem;
+}
+
+#instagram #facebook #twitter {
+    position: relative;
 }
