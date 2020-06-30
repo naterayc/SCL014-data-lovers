@@ -140,7 +140,7 @@ https://docs.google.com/forms/d/e/1FAIpQLScHE9-FVxDOFR9FoitXKXsF5OwDPL2Y32W67gty
 
 **Trello** 
 
-https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/trello.png?raw=true
+![trello](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/trello.png?raw=true)
 
 
 https://trello.com/b/TsavtLXm/planificaci%C3%B3n-athlos
