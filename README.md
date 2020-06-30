@@ -129,6 +129,8 @@ Finalmente, dentro de los filtros que buscarían, entendiendo que la informació
 
 **Prototipo de baja fidelidad** 
 
+![prototipo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/prototipo.jpeg)
+
 https://namastheyssoledadbaspe903212.invisionapp.com/public/share/NY18EIBR2M#screens/479046376
 
 
