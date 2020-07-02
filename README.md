@@ -1,4 +1,4 @@
-# Athlos, búsacador de medallistas olímpicos. Proyecto Data Lovers
+# Athlos, búscador de medallistas olímpicos. Proyecto Data Lovers
 
 ## Índice
 
@@ -279,7 +279,7 @@ Gustó la idea de creación de una página web para atletas ya que se enaltece y
 
 La paleta de colores que se había planteado en un principio no les gustó a los usuarios, encontraban que no hacía tanta alusión a los juegos olímpicos, por ello, se planteó una nueva paleta que conjugase los colores: negro, blanco, gris y azul turquesa, este último evocando a las pistas de atletismo, a las piscinas olimpicas, los trajes de las gimnastas y patinadoras, y porque también fue uno de los colores que más les gustó de la paleta anterior. A continuación se muestra el resultado de la paleta obtenida.  
 
-![Colors](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colors.jpg)
+![Colors](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colorido.jpg)
 
 El logo que se había planteado en principio no se lograba visualizar en el header, se confundía o perdía. Por ello se propuso uno nuevo que se muestra a continuación en sus dos versiones para pantallas grandes y chicas, entendiendo que la web es responsive. Este logo al igual que el que se habia planteado en un principio tiene un porqué de su diseño, abarca el nombre griego, lleva la llama olímpica y también los anillos que hacen alusión a los juegos. 
 
