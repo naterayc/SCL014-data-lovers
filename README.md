@@ -1,4 +1,4 @@
-# Athlos, página web de atletas olímpicos. Proyecto Data Lovers
+# Athlos, búsacador de medallistas olímpicos. Proyecto Data Lovers
 
 ## Índice
 
@@ -7,9 +7,10 @@
 * [3. ¿Por qué los atletas olímpicos? ](#3-¿-por-qué-los-atletas-olímpicos-?)
 * [4. Datos generales de la página web](#4-datos-generales-de-la-página-web)
 * [5. Usuarios](#5-usuarios)
-* [6. Test de usabilidad](#6-diseño-de-interfaz)
-* [7. Diseño de Interfaz](#7-diseño-de-interfaz)
-* [8. Aplicación y anexos complementarios](#8-aplicación-y-anexos-complementarios)
+* [6. Diseño de interfaz](#6-diseño-de-interfaz)
+* [7. Test de usabilidad](#7-test-de-usabilidad)
+* [8. Feedback de test de usabilidad](#7-feedback-de-test-de-usabilidad)
+* [9. Aplicación y anexos complementarios](#8-aplicación-y-anexos-complementarios)
 
 
 ***
@@ -165,7 +166,7 @@ Al ingresar a la página se muestra en la pantalla principal, una gran parte de 
 
 **Historia N° 3**
 
-**Francisco, 31 años. Desarrollador, futbolista de corazón**
+**Francisco, 31 años. Desarrollador, futbolista de corazón.**
 
 *“...Quisiera poder encontrar todas las especialidades (disciplinas), para saber cuáles y cuantas son...”*
 
@@ -181,7 +182,7 @@ Al ingresar a la página Francisco, podrá encontrarse con el filtro “DISCIPLI
 
 **Historia N° 4**
 
-**32 años. Geógrafa, seguidora de los logros de Daniel Dhers**
+**32 años. Geógrafa, seguidora de los logros de Daniel Dhers.**
 
 *“…Quiero ver a los atletas olímpicos según el país que representan…”*
 
@@ -197,9 +198,9 @@ Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS�
 
 **Historia N° 5**
 
-**23 años. Atleta profesional, Judoca abanderada venezolana en Lima 2019**
+**23 años. Atleta profesional, Judoca abanderada venezolana en Lima 2019.**
 
-*“…Siento que el género de los atletas es importante resaltarlo ya que empodera, de cierta forma a la mujer…”*
+*“…Siento que el género de las atletas es importante resaltarlo ya que empodera, de cierta forma a la mujer…”*
 
 **Criterios de aceptación**
 
@@ -211,7 +212,7 @@ En el filtro “GÉNERO”, la usuaria quiere conocer todas las mujeres que han 
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de dos géneros, desplegarse en la pantalla principal todas las atletas medallistas desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![u8](src\imagenes\usuarios.jpg)
+![u8](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/usuarios.jpg)
 
 ## 6. Diseño de interfaz
 
@@ -222,39 +223,39 @@ Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO
 **Prototipo de baja fidelidad** 
 
 
-https://namastheyssoledadbaspe903212.invisionapp.com/public/share/NY18EIBR2M#screens/479046376
+**link:** https://namastheyssoledadbaspe903212.invisionapp.com/public/share/NY18EIBR2M#screens/479046376
 
 ## 7. Testeo de usabilidad
 
-Este aspecto se decidió llevar a cabo en diferentes instancias con el prototipo de alta fidelidad enviado a posibles y potentes usuarios: aficionados, atletas y periodistas deportivos. En particular se decidió documentar con una entrevista a los atletas y a uno de los periodístas deportivos que pudieron familiarizarse con la propuesta de la página.
+Este aspecto se decidió llevar a cabo en diferentes instancias con el prototipo de alta fidelidad enviado a posibles y potentes usuarios: aficionados, atletas y periodistas deportivos. En particular, se decidió documentar con una entrevista a los atletas y a uno de los periodístas deportivos que pudieron familiarizarse con la propuesta de la página.
 
 El fin era poder conocer cómo se sentían los usuarios al usar la página, qué les gustaba y qué pudiese mejorarse, además se utilizó la aplicación **useberry** para poder medir por así decirlo, los click de los usuarios y a través de mapas de calor ver qué secciones de la página podían generar mayor interés. Se decidió testear acorde a la siguiente pauta establecida:
 
-Saludo al usuario y agradecimiento por su colaboración con nuestro proyecto. Recalcar que no se persigue testear su conocimiento con respecto al tema, por el contrario se busca recolectar todo el feedback posible sobre el acercamiento con la página, gustos afinidades y falencias de encontrarse.
+* Saludo al usuario y agradecimiento por su colaboración con nuestro proyecto. Recalcar que no se persigue testear su conocimiento con respecto al tema, por el contrario se busca recolectar todo el feedback posible sobre el acercamiento con la página, gustos afinidades y falencias de encontrarse.
 
-Seguidamente se menciona el nombre de nuestra web **Athlos**, la cual es un buscador de medallistas olímpicos desde Beijing 2008 y el fin de creación de la página.
+* Seguidamente se menciona el nombre de nuestra web **Athlos**, la cual es un buscador de medallistas olímpicos desde Beijing 2008 y el fin de creación de la página.
 
-Se solicita posteriormente sus primeras impresiones respecto a la página, sin interrumpirlo pero propiciando una conversación fluida.
+* Se solicita posteriormente sus primeras impresiones respecto a la página, sin interrumpirlo pero propiciando una conversación fluida.
 
-Se le coloca la tarea al usuario de buscar a sus atletas filtrando por género y se posee a observar y anotar el proceso de su búsqueda, absteniéndonos de darle directrices.
+* Se le coloca la tarea al usuario de buscar a sus atletas filtrando por género y se posee a observar y anotar el proceso de su búsqueda, absteniéndonos de darle directrices.
 
-Se le pide nos comente si tienen sugerencias con respecto a los colores, nombre, logo, distribución de la página; elementos que añadiría o que quitaría.
+* Se le pide nos comente si tienen sugerencias con respecto a los colores, nombre, logo, distribución de la página; elementos que añadiría o que quitaría.
 
-Se le pregunta para qué usaria esta página y si siente que cumple con el objetivo de para lo que fue creada.
+* Se le pregunta para qué usaria esta página y si siente que cumple con el objetivo de para lo que fue creada.
 
-Finalmente se agradece su tiempo y colaboración, recalcando y aludiendo que su feedback es muy útil para mejorar nuestra web.
+* Finalmente se agradece su tiempo y colaboración, recalcando y aludiendo que su feedback es muy útil para mejorar nuestra web.
 
-## 7. Feedback de test de usabilidad
+## 8. Feedback de test de usabilidad
 
-A continuación se muestran en las imagenes siguientes los comentarios de cada uno de los usuarios que nos dieros su feedback.
+A continuación, se muestran en las imagenes siguientes los comentarios de cada uno de los usuarios que nos dieros su feedback.
 
 **Elvismar Rodríguez**
 
-![u9](src\imagenes\elvismar.jpg)
+![u9](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/elvismar.jpg)
 
 **Cleiver Casanova**
 
-![u10](src\imagenes\cleiver.jpg)
+![u10](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/cleiver.jpg)
 
 **Néstor Romero**
 
@@ -278,7 +279,7 @@ Gustó la idea de creación de una página web para atletas ya que se enaltece y
 
 La paleta de colores que se había planteado en un principio no les gustó a los usuarios, encontraban que no hacía tanta alusión a los juegos olímpicos, por ello, se planteó una nueva paleta que conjugase los colores: negro, blanco, gris y azul turquesa, este último evocando a las pistas de atletismo, a las piscinas olimpicas, los trajes de las gimnastas y patinadoras, y porque también fue uno de los colores que más les gustó de la paleta anterior. A continuación se muestra el resultado de la paleta obtenida.  
 
-![Colors](src\imagenes\colors.jpg)
+![Colors](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colors.jpg)
 
 El logo que se había planteado en principio no se lograba visualizar en el header, se confundía o perdía. Por ello se propuso uno nuevo que se muestra a continuación en sus dos versiones para pantallas grandes y chicas, entendiendo que la web es responsive. Este logo al igual que el que se habia planteado en un principio tiene un porqué de su diseño, abarca el nombre griego, lleva la llama olímpica y también los anillos que hacen alusión a los juegos. 
 
@@ -290,11 +291,11 @@ Logo para dispositivos móviles
 
 ![logom](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logo1.JPG)
 
-## 7. Aplicación y anexos complementarios
-
-**Formulario encuesta primer acercamiento usuarios Athlos** 
+## 9. Aplicación y anexos complementarios
 
 **Link para utilizar Athlos, buscador de medallistas olimpicos** 
+
+**Formulario encuesta primer acercamiento usuarios Athlos** 
 
 ![formulario](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/formulario.png)
 
