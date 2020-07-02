@@ -225,12 +225,12 @@ Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS�
 
 Logo para desktop
 
-![Logod](src\imagenes\logo2.JPG)
+![Logod](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logo2.JPG)
 
 
 Logo para dispositivos móviles
 
-![logom](src\imagenes\logo1.JPG)
+![logom](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logo1.JPG)
 
 
 ## 6. Diseño de interfaz
