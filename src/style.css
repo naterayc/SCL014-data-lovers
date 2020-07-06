@@ -8,36 +8,31 @@ html {
     scroll-behavior: smooth;
 }
 
+.body {
+    width: 100%;
+}
+
 
 /* header*/
 
 .header {
-    height: 15%;
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: .5rem;
     width: 100%;
-    background-color: #63Caa7;
+    background-color: black;
 }
 
 .logo {
-    margin-top: 3px;
-    margin-left: 1.7rem;
-    margin-right: 1.7rem;
     width: 15%;
 }
 
-
-/* .navegador {
-    display: flex;
-  } */
-
 .navegador {
     display: flex;
-    margin: 0 10px;
+    margin: 0 0% 0% 15%;
     justify-content: space-between;
-    width: 75%;
-    /*margen entre las etiquetas <a> menu, atletas.etc*/
+    width: 80%;
+    box-sizing: border-box;
 }
 
 .navegador a:hover {
@@ -58,9 +53,128 @@ a {
 
 .nav {
     font-size: 1.3em;
-    font-family: monospace;
+    font-family: verdana;
     text-align: center;
     margin: auto;
+}
+
+
+/* atletas pantalla principal */
+
+#initial {
+    width: 100%;
+}
+
+#input {
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/* botones para ordenar A-Z Z-A */
+
+.button-az {
+    position: absolute;
+    margin: 0% 0% 0% 56%;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 5%;
+    height: 2rem;
+    border: solid 1px #f2f2f2;
+    color: #bdbdbd;
+}
+
+.button-za {
+    position: absolute;
+    margin: 0% 1.2% 0% 62%;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 5%;
+    height: 2rem;
+    border: solid 1px #f2f2f2;
+    color: #bdbdbd;
+}
+
+
+/* titulo seccion */
+
+.tittle {
+    font-family: sans-serif;
+    color: #bdbdbd;
+    margin: 0% 0% 0% 10%;
+}
+
+
+/* input buscar */
+
+#search {
+    position: absolute;
+    margin: 0% 0% 0% 70%;
+    background: #f2f2f2;
+    border: solid 1px #f2f2f2;
+    border-radius: 93px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: sans-serif #bdbdbd;
+    width: 25%;
+    height: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#all-athletes {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#box {
+    display: inline-block;
+    width: 15%;
+    background-color: #26798e;
+    border-radius: 10%;
+    margin: 1rem 0 1rem 0;
+    padding: .2rem;
+    box-sizing: border-box;
+}
+
+#box:hover {
+    cursor: pointer;
+    box-shadow: rgba(102, 205, 170);
+}
+
+.avatar {
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+
+.name {
+    text-align: center;
+    font-size: .9rem;
+    font-family: verdana;
+    font-weight: lighter;
+    color: white;
+}
+
+.info {
+    font-size: .7rem;
+    font-family: verdana;
+    color: white;
+    text-align: center;
+}
+
+.flag {
+    width: 20%;
+    margin-left: 40%;
 }
 
 
@@ -73,6 +187,7 @@ a {
     padding: 1rem;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .contenedor {
@@ -106,45 +221,35 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #63Caa7;
+    background-color: black;
+    box-sizing: border-box;
 }
 
 .textFooter {
-    width: 20%;
-    float: left;
     text-align: center;
-    font-size: 1.3rem;
-    font-family: monospace;
-    margin: 0 0 0 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 0 0 0 1%;
 }
 
 #athlos {
-    font-size: 1.3rem;
-    font-family: monospace;
-    text-align: center;
+    position: relative;
+    font-size: 1rem;
+    font-family: sans-serif;
     color: white;
-    width: 50%;
-    float: none;
-}
-
-.navFooter {
-    margin: 0;
-    display: flex;
-    box-sizing: border-box;
-    padding: .3rem;
-    justify-content: space-between;
-}
-
-footer a:hover {
-    color: gray;
 }
 
 .barra-inferior {
-    display: flex;
     position: relative;
-    right: -18rem;
+    margin: 0% 0% 0% 68%;
+    box-sizing: border-box;
+    padding: .3rem;
 }
 
-#instagram #facebook #twitter {
-    position: relative;
+.footer a:hover {
+    color: gray;
+}
+
+.navFooter {
+    display: flex;
 }

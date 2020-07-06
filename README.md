@@ -23,7 +23,10 @@ Cómo sabemos el máximo sueño de muchos atletas es poder representar a su paí
 
 En este sentido el cliente se encontraba con un problema definido respecto al objeto de estudio, el cual se muestra en la imagen, asociado a la **"inexistencia de una página web que contenga información de los atletas que han ganado medallas en los juegos olímpico desde Beijing 2008"**. Asimismo, se plantea como solución: **crear una página web gratuita, dónde se puedan mostrar datos personales y profesionales de los atletas que han ganado medallas en las olimpiadas desde el evento magno de Beijing 2008.**
 
+Ideas para el proyecto
+
 ![ux1](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/ux1.jpeg?raw=true)
+
 ![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/ux2.jpeg?raw=true)
 
 
@@ -74,15 +77,16 @@ Los datos del producto hacen referencia a:
 * Página web (responsiva)
 * Página de inicio compuesta por:
     * Header
-      * Atletas: Posibilidad de recargar fotos e información principal.
+      * Atletas: Posibilidad de cargar fotos e información principal.
       * Disciplina: Tipo de deporte que practican los usuarios.
       * País: Estado al que representan.
       * Género: Femenino y masculino.
     * Cuerpo
       * Barra para buscar atletas por su nombre.
+      * Botones para ordenar alfabéticamente.
       * Fotografías con nombres y abreviaturas del país al que representan y especialidad
     * Footer
-      * Logo, empresa, año de creación, desarrolladoras y redes sociales oficiales del cliente.
+      * Nombre de la página, año de creación, mensaje que muestra que es un buscador de atletas olímpicos desde Beijing 2008, y redes sociales oficiales del cliente.
 
 
 ## 5. Usuarios
@@ -91,15 +95,12 @@ Esta página web estará diseñada para público en general, sin rango etario de
 
 **Athlos**, es un buscador de medallistas olímpicos, que invita a conocerlos de forma fácil (mediante sus datos personales y profesionales), rápida y ordenada.
 
-
-Se persigue que la interfaz sea un conjunto de formularios que jueguen con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data.
-
-
 **Usuarios y objetivos con relación al producto**
 
 ![u1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva1.JPG)
 
 Tras la lectura e investigación sobre los atletas olímpicos, se buscó perfiles de usuarios que pudiesen sentirse atraídos por este tema. En este sentido, a través de formularios de Google se distribuyó un cuestionario que nos ayudaron no solo a conocer a los usuarios, además a tener una visión de los posibles requerimientos para el desarrollo de la página web.
+
 El análisis de los datos suministrados por los usuarios, nos arrojó que la encuesta fue respondida por personas, masculinas y femeninas, que se encuentran en un rango de edades comprendido entre los 18 y 50 años, además son procedentes o están residenciados en países como: Chile, Venezuela, Costa Rica, Japón y Argentina según porcentaje de respuesta.
 
 ![u2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva2.JPG)
@@ -149,6 +150,8 @@ Los datos contenidos en la página web hacen referencia solo a los atletas que h
 
 Al ingresar a la página la usuaria podrá encontrarse con todos los medallistas olímpicos desde el 2008 hasta la actualidad. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
+![h1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h1.png)
+
 **Historia N° 2**
 
 **31 años. Profesor de educación física, seguidor del tenista olímpico Roger Federer**
@@ -158,15 +161,17 @@ Al ingresar a la página la usuaria podrá encontrarse con todos los medallistas
 **Criterios de aceptación**
 
 El usuario al ingresar a la página web, se encontrará en la pantalla principal “tarjetas de presentación” de todos los atletas medallistas desde Beijing 2008, dichas tarjetas contienen el nombre, país y disciplina que practican, acompañados de una imagen gráfica de femenino y masculino cuando corresponda.
-Los datos contenidos en las “tarjetas de presentación” que se muestran en la pantalla principal facilitan al usuario tener un primer acercamiento con los atletas.  A desarrollar: HTML, CSS, JS (funciones) y diseño de avatar.
+Los datos contenidos en las “tarjetas de presentación” que se muestran en la pantalla principal facilitan al usuario tener un primer acercamiento con los atletas.  A desarrollar: HTML, CSS, JS (funciones), modal y diseño de avatar.
 
 **Definición de terminado**
 
 Al ingresar a la página se muestra en la pantalla principal, una gran parte de atletas contenidos en  la “tarjeta de presentación”, Marcelo podrá subir y bajar la barra de desplazamiento para no solo verlos a todos, además buscar a algún atleta en especial y conocer más sobre él. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
+![h2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta2.png)
+
 **Historia N° 3**
 
-**Francisco, 31 años. Desarrollador, futbolista de corazón.**
+**31 años. Desarrollador, futbolista de corazón.**
 
 *“...Quisiera poder encontrar todas las especialidades (disciplinas), para saber cuáles y cuantas son...”*
 
@@ -179,6 +184,8 @@ En el filtro “DISCIPLINAS”, el usuario podrá contar y conocer todas las pr�
 **Definición de terminado**
 
 Al ingresar a la página Francisco, podrá encontrarse con el filtro “DISCIPLINAS” que al ejecutarlo, le proporcionará la opción de al hacer click en una de las especialidades, desplegarse en la pantalla principal todos los atletas que practican el deporte escogido. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
+
+![h4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h4.png)
 
 **Historia N° 4**
 
@@ -196,6 +203,8 @@ En el filtro “PAÍS”, la usuaria conocer todos los países que han podido es
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de los países, desplegarse en la pantalla principal todos los atletas que representaron a ese país escogido desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
+![h5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h5.png)
+
 **Historia N° 5**
 
 **23 años. Atleta profesional, Judoca abanderada venezolana en Lima 2019.**
@@ -212,18 +221,71 @@ En el filtro “GÉNERO”, la usuaria quiere conocer todas las mujeres que han 
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de dos géneros, desplegarse en la pantalla principal todas las atletas medallistas desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
+![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h6.png)
+
+![h3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h3.png)
+
+
 ![u8](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/usuarios.jpg)
 
 ## 6. Diseño de interfaz
 
-**sketch** 
+**Sketch** 
+
+En primera instancia, comenzamos a hacer el sketch de la página web utilizando papel y lápiz para poder bajar la idea de cómo nos gustaría que se viera la página web. Lo que resalta de este primer paso es que nos ayuda a tener una idea clara y concreta (en lo posible) de la dinámica del sitio, es así como a través de la realización de un esquema se facilita la forma de navegar, comprender y expresar en y con el contenido. El sketch es una primera aproximación al producto final, por ello es normal que sufra cambios en el proceso, tal y cómo ocurrió con nuestra página.
 
 ![prototipo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/prototipo.jpeg)
 
+![flujo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/flujo.jpeg)
+
+En este primer prototipo, quisimos que nuestra pantalla de inicio mostrase el logo de athlos dentro de la barra de navegación superior, donde también se contenían los filtros y un conócenos (con la historia de creación de la página, el objetivo y la explicación de la data). En el cuerpo, se distribuyen las tarjetas de presentación de los atletas, que muestran datos relevantes y que al hacerle click, se abriría una ventana modal que mostraría más datos personales  profesionales de la persona. Finalmente, en el footer se encuentran las redes oficiales del canal olímpico y el año de creación.
+
 **Prototipo de baja fidelidad** 
 
+Una vez realizado nuestro sketch, decidimos plasmarlo en la aplicación invision para digitalizar nuestro wireframe y diseñar un mockup, esto nos permitiria realizar nuestro primer testeo con usuarios.
+
+![proto](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/proto.png)
+
+![protob](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/protob.png)
+
+Tal y como se puede observar en el prototipo, el diseño se mantuvo bastante cercano al original, solo cambiaron los filtros, los cuales se hacen más específicos.
+
+A continuación, pueden ejecutar el prototivo a través del siguiente link.
 
 **link:** https://namastheyssoledadbaspe903212.invisionapp.com/public/share/NY18EIBR2M#screens/479046376
+
+**Prototipo de alta fidelidad**
+
+Este prototipo lo llevamos a cabo a través de la aplicación figma, tomando en consideración nuestros otros dos prototipos anteriores. Para la realización de este decidimos mantener la estructura original planteada, integrando detalles más específicos que ayudarán a cumplir nuestros criterios de aceptación por parte del usuario. 
+
+En este proceso nuestro prototipo fue evolucionando, cambiaron los colores, filtros y logo, esto a través de test a los usuarios, quienes sugirieron dichos cambios para llegar a una interfaz que se hace más referente al ámbito olímpico.
+
+1era propuesta
+
+![interfaz](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/interfaz.jpeg)
+
+Una vez efectuados los cambios, los usuarios comentaron sentirse más familiarizados y confiados en nuestra web, lo que aumenta relativamente la posibilidad que prefieran utilizarla constantemente.
+
+2da propuesta
+
+![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta.png)
+
+![propuesta2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta2.png)
+
+![propuesta3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta3.png)
+
+![propuesta4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta4.png)
+
+
+Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
+
+![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/computador.png)
+
+Para desktop **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=82%3A886&scaling=min-zoom
+
+![movil](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/movil.png)
+
+Para dispositivo móvil **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=200%3A2488&scaling=scale-down
 
 ## 7. Testeo de usabilidad
 
