@@ -25,9 +25,9 @@ En este sentido el cliente se encontraba con un problema definido respecto al ob
 
 Ideas para el proyecto
 
-![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\u1.jpeg)
+![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/u1.jpeg)
 
-![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\u2.jpeg)
+![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/u2.jpeg)
 
 
 ## 2. Nombre del proyecto y empresa desarrolladora
@@ -41,7 +41,7 @@ Asimismo, se diseñó un logo el cual se aprecia en la siguiente imagen, que com
 * Anillos olímpicos ícono de los juegos.
 * Estrellas, por los atletas. 
 
-![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\athlos.jpeg)
+![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/athlos.jpeg)
 
 La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel Services**, quienes son el canal oficial de los juegos olímpicos. En este sentido **Athlos**, estaría como link dentro de esta página web, según especificaciones del cliente.
 
@@ -66,7 +66,7 @@ No obstante, se exponen los gastos para su creación que hacen referencia a: dis
 
 Se persigue que la interfaz sea un conjunto de formularios que en principio jugaban con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data. Sin embargo, con los testeos realizados, los colores, el flujo de datos y el logo sufrieron cambios a fin de satisfacer a los usuarios (dichos cambios seran mostrados en el apartado diseño de interfaz)
 
-![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\colores.jpeg)
+![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg)
 
 **Video publicitario de Athlos**
 
@@ -221,7 +221,7 @@ En el filtro “GÉNERO”, la usuaria quiere conocer todas las mujeres que han 
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de dos géneros, desplegarse en la pantalla principal todas las atletas medallistas desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\Diapositiva19.JPG)
+![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h6.png)
 
 
 ![u8](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/usuarios.jpg)
@@ -264,7 +264,7 @@ Una vez efectuados los cambios, los usuarios comentaron sentirse más familiariz
 
 2da propuesta
 
-![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva14.JPG.png)
+![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva14.JPG)
 
 Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
 
