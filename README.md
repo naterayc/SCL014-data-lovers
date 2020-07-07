@@ -25,9 +25,9 @@ En este sentido el cliente se encontraba con un problema definido respecto al ob
 
 Ideas para el proyecto
 
-![ux1](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/ux1.jpeg?raw=true)
+![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\ux1.jpeg)
 
-![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/ux2.jpeg?raw=true)
+![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\ux2.jpeg)
 
 
 ## 2. Nombre del proyecto y empresa desarrolladora
@@ -41,7 +41,7 @@ Asimismo, se diseñó un logo el cual se aprecia en la siguiente imagen, que com
 * Anillos olímpicos ícono de los juegos.
 * Estrellas, por los atletas. 
 
-![athlos](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/logo.png?raw=true)
+![athlos](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\athlos.jpeg)
 
 La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel Services**, quienes son el canal oficial de los juegos olímpicos. En este sentido **Athlos**, estaría como link dentro de esta página web, según especificaciones del cliente.
 
@@ -55,7 +55,7 @@ La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel S
 * Porque no es de desconocimiento que el ámbito de los juegos olímpicos y todo lo que le contempla es de gran interés por muchos usuarios, a los que no sólo les gusta el deporte, además, sienten amor y pasión por ver representado a sus países en este evento mundial y de gran relevancia.
 
 
-![depo](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/depo.jpg?raw=true)
+![depo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\depo.jpg)
 
 
 ## 4. Datos generales de la página web
@@ -66,7 +66,7 @@ No obstante, se exponen los gastos para su creación que hacen referencia a: dis
 
 Se persigue que la interfaz sea un conjunto de formularios que en principio jugaban con una paleta de colores entre turquesa, azules y canario en tonalidades pasteles, con fondo blanco y letras grises, con un flujo de una página principal que muestra de inmediato a los atletas olímpicos y diferentes opciones para procesar y mostrar la data. Sin embargo, con los testeos realizados, los colores, el flujo de datos y el logo sufrieron cambios a fin de satisfacer a los usuarios (dichos cambios seran mostrados en el apartado diseño de interfaz)
 
-![colores](https://github.com/naterayc/SCL014-data-lovers/blob/master/src/imagenes/colores.jpeg?raw=true)
+![colores](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\colores.jpeg)
 
 **Video publicitario de Athlos**
 
@@ -150,7 +150,7 @@ Los datos contenidos en la página web hacen referencia solo a los atletas que h
 
 Al ingresar a la página la usuaria podrá encontrarse con todos los medallistas olímpicos desde el 2008 hasta la actualidad. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h1.png)
+![h1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva15.JPG)
 
 **Historia N° 2**
 
@@ -167,7 +167,7 @@ Los datos contenidos en las “tarjetas de presentación” que se muestran en l
 
 Al ingresar a la página se muestra en la pantalla principal, una gran parte de atletas contenidos en  la “tarjeta de presentación”, Marcelo podrá subir y bajar la barra de desplazamiento para no solo verlos a todos, además buscar a algún atleta en especial y conocer más sobre él. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta2.png)
+![h2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva16.JPG)
 
 **Historia N° 3**
 
@@ -185,7 +185,7 @@ En el filtro “DISCIPLINAS”, el usuario podrá contar y conocer todas las pr�
 
 Al ingresar a la página Francisco, podrá encontrarse con el filtro “DISCIPLINAS” que al ejecutarlo, le proporcionará la opción de al hacer click en una de las especialidades, desplegarse en la pantalla principal todos los atletas que practican el deporte escogido. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h4.png)
+![h4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva17.JPG)
 
 **Historia N° 4**
 
@@ -203,7 +203,7 @@ En el filtro “PAÍS”, la usuaria conocer todos los países que han podido es
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de los países, desplegarse en la pantalla principal todos los atletas que representaron a ese país escogido desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h5.png)
+![h5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva18.JPG)
 
 **Historia N° 5**
 
@@ -221,9 +221,7 @@ En el filtro “GÉNERO”, la usuaria quiere conocer todas las mujeres que han 
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de dos géneros, desplegarse en la pantalla principal todas las atletas medallistas desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h6.png)
-
-![h3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h3.png)
+![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\Diapositiva19.JPG)
 
 
 ![u8](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/usuarios.jpg)
@@ -244,9 +242,7 @@ En este primer prototipo, quisimos que nuestra pantalla de inicio mostrase el lo
 
 Una vez realizado nuestro sketch, decidimos plasmarlo en la aplicación invision para digitalizar nuestro wireframe y diseñar un mockup, esto nos permitiria realizar nuestro primer testeo con usuarios.
 
-![proto](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/proto.png)
-
-![protob](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/protob.png)
+![proto](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva13.JPG)
 
 Tal y como se puede observar en el prototipo, el diseño se mantuvo bastante cercano al original, solo cambiaron los filtros, los cuales se hacen más específicos.
 
@@ -269,13 +265,6 @@ Una vez efectuados los cambios, los usuarios comentaron sentirse más familiariz
 2da propuesta
 
 ![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta.png)
-
-![propuesta2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta2.png)
-
-![propuesta3](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta3.png)
-
-![propuesta4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta4.png)
-
 
 Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
 
@@ -320,6 +309,8 @@ A continuación, se muestran en las imagenes siguientes los comentarios de cada 
 ![u10](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/cleiver.jpg)
 
 **Néstor Romero**
+
+![u11](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva12.JPG)
 
 Los aspectos más comentados fueron:
 
