@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* header*/
 
 .header {
@@ -182,7 +183,6 @@ color: #fdfdfd;
   z-index: 1;
   box-sizing: border-box;
   position: fixed;
-}
 
 .avatar2{
   width: 40%;
@@ -253,4 +253,3 @@ footer{
 .navFooter{
   display:flex;
   justify-content: flex-end
-}
