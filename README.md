@@ -55,7 +55,7 @@ La empresa desarrolladora encargada de llevar el proyecto es **Olympic Channel S
 * Porque no es de desconocimiento que el ámbito de los juegos olímpicos y todo lo que le contempla es de gran interés por muchos usuarios, a los que no sólo les gusta el deporte, además, sienten amor y pasión por ver representado a sus países en este evento mundial y de gran relevancia.
 
 
-![depo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\depo.jpg)
+![depo](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/depo.jpg)
 
 
 ## 4. Datos generales de la página web
@@ -221,7 +221,7 @@ En el filtro “GÉNERO”, la usuaria quiere conocer todas las mujeres que han 
 
 Al ingresar a la página, la usuaria podrá encontrarse con el filtro “GÉNERO”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de dos géneros, desplegarse en la pantalla principal todas las atletas medallistas desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
 
-![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/h6.png)
+![h6](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva19.JPG)
 
 
 ![u8](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/usuarios.jpg)
