@@ -25,9 +25,9 @@ En este sentido el cliente se encontraba con un problema definido respecto al ob
 
 Ideas para el proyecto
 
-![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\ux1.jpeg)
+![ux1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\u1.jpeg)
 
-![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\ux2.jpeg)
+![ux2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/src\imagenes\u2.jpeg)
 
 
 ## 2. Nombre del proyecto y empresa desarrolladora
@@ -148,7 +148,7 @@ Los datos contenidos en la página web hacen referencia solo a los atletas que h
 
 **Definición de terminado**
 
-Al ingresar a la página la usuaria podrá encontrarse con todos los medallistas olímpicos desde el 2008 hasta la actualidad. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
+Al ingresar a la página la usuaria podrá encontrarse con todos los medallistas olímpicos desde el 2008 hasta la actualidad. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado. El código ha recibido feedback de pares, coaches.El código ha sido hecho en pair-programming y se le ha hecho code review.
 
 ![h1](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva15.JPG)
 
@@ -165,7 +165,7 @@ Los datos contenidos en las “tarjetas de presentación” que se muestran en l
 
 **Definición de terminado**
 
-Al ingresar a la página se muestra en la pantalla principal, una gran parte de atletas contenidos en  la “tarjeta de presentación”, Marcelo podrá subir y bajar la barra de desplazamiento para no solo verlos a todos, además buscar a algún atleta en especial y conocer más sobre él. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
+Al ingresar a la página se muestra en la pantalla principal, una gran parte de atletas contenidos en  la “tarjeta de presentación”, Marcelo podrá subir y bajar la barra de desplazamiento para no solo verlos a todos, además buscar a algún atleta en especial y conocer más sobre él. El código cumple con la guía de estilos acordada. El código está en el repositorio. El código ha recibido feedback de pares, coaches.El código ha sido hecho en pair-programming y se le ha hecho code review.
 
 ![h2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva16.JPG)
 
@@ -183,7 +183,7 @@ En el filtro “DISCIPLINAS”, el usuario podrá contar y conocer todas las pr�
 
 **Definición de terminado**
 
-Al ingresar a la página Francisco, podrá encontrarse con el filtro “DISCIPLINAS” que al ejecutarlo, le proporcionará la opción de al hacer click en una de las especialidades, desplegarse en la pantalla principal todos los atletas que practican el deporte escogido. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
+Al ingresar a la página Francisco, podrá encontrarse con el filtro “DISCIPLINAS” que al ejecutarlo, le proporcionará la opción de al hacer click en una de las especialidades, desplegarse en la pantalla principal todos los atletas que practican el deporte escogido. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado. El código ha recibido feedback de pares, coaches.El código ha sido hecho en pair-programming y se le ha hecho code review.
 
 ![h4](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva17.JPG)
 
@@ -201,7 +201,7 @@ En el filtro “PAÍS”, la usuaria conocer todos los países que han podido es
 
 **Definición de terminado**
 
-Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de los países, desplegarse en la pantalla principal todos los atletas que representaron a ese país escogido desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado.
+Al ingresar a la página, la usuaria podrá encontrarse con el filtro “PAÍS”, que al seleccionarlo, le proporcionará la opción de al hacer click en uno de los países, desplegarse en la pantalla principal todos los atletas que representaron a ese país escogido desde las olimpiadas del 2008. El código cumple con la guía de estilos acordada. El código está en el repositorio. El test corrobora que se cumple con lo solicitado. El código ha recibido feedback de pares, coaches.El código ha sido hecho en pair-programming y se le ha hecho code review.
 
 ![h5](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva18.JPG)
 
@@ -264,17 +264,18 @@ Una vez efectuados los cambios, los usuarios comentaron sentirse más familiariz
 
 2da propuesta
 
-![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/propuesta.png)
+![propuesta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/Diapositiva14.JPG.png)
 
 Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
 
-![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/computador.png)
+![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/des.jpg)
 
 Para desktop **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=82%3A886&scaling=min-zoom
 
-![movil](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/movil.png)
+![movil](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mol.jpg)
 
 Para dispositivo móvil **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=200%3A2488&scaling=scale-down
+
 
 ## 7. Testeo de usabilidad
 
