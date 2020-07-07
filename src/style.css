@@ -1,255 +1,255 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
-.body {
-    width: 100%;
-}
-
 
 /* header*/
 
 .header {
-    display: flex;
-    align-items: center;
-    padding: .5rem;
-    width: 100%;
-    background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  background-color: black;
+  box-sizing: border-box;
 }
 
-.logo {
-    width: 15%;
+a{
+  margin: 0%;
+  width: 15%;
+  box-sizing: border-box;
 }
 
-.navegador {
-    display: flex;
-    margin: 0 0% 0% 15%;
-    justify-content: space-between;
-    width: 80%;
-    box-sizing: border-box;
+.logo{
+  width: 60%
 }
 
-.navegador a:hover {
-    color: gray;
+.navegador{
+  display: flex;
+  margin: 0% 0% 0% 27%;
+  width: 85%;
+  box-sizing: border-box;
 }
 
-
-/*.navegador */
-
-a {
-    color: white;
-    text-decoration: none;
-    /*le estamos quitando el subrayado azul que tine por defaul*/
-    display: flex;
-    align-items: center;
-    padding: 0 .2rem 0 .2rem;
+.selects{
+  width: 25%;
+  background-color: black;
+  border: black;
+  margin: 0% 5% 0% 0%;
+  margin-block-end: 0%;
+  font-size: 1.3rem;
+  color: white
 }
 
-.nav {
-    font-size: 1.3em;
-    font-family: verdana;
-    text-align: center;
-    margin: auto;
+.selects select:last-of-type{
+  margin: 0%;
 }
 
-
+.options{
+  border: white .5px;
+  font-size: 1rem;
+  text-align: center;
+}
 /* atletas pantalla principal */
 
-#initial {
-    width: 100%;
+.input{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:1rem;
+  box-sizing: border-box;
 }
-
-#input {
-    display: flex;
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-
-/* botones para ordenar A-Z Z-A */
-
-.button-az {
-    position: absolute;
-    margin: 0% 0% 0% 56%;
-    background: #F2F2F2;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    width: 5%;
-    height: 2rem;
-    border: solid 1px #f2f2f2;
-    color: #bdbdbd;
-}
-
-.button-za {
-    position: absolute;
-    margin: 0% 1.2% 0% 62%;
-    background: #F2F2F2;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    width: 5%;
-    height: 2rem;
-    border: solid 1px #f2f2f2;
-    color: #bdbdbd;
-}
-
 
 /* titulo seccion */
-
-.tittle {
-    font-family: sans-serif;
-    color: #bdbdbd;
-    margin: 0% 0% 0% 10%;
+.title{
+  font-family: sans-serif;
+  color: #bdbdbd;
+  width: 15%;
+  margin: 0% 0% 0% 10%;
 }
 
+/* botones para ordenar A-Z Z-A */
+.button-az{
+  margin-left: 35%;
+  background: #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px; 
+  width: 5%;
+  height: 2rem;
+  border: solid 1px #f2f2f2;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+
+.button-za{
+  margin-left: 2%;
+  background: #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px; 
+  width: 5%;
+  height: 2rem;
+  border: solid 1px #f2f2f2;
+  color: #bdbdbd;
+  cursor: pointer;
+}
 
 /* input buscar */
-
-#search {
-    position: absolute;
-    margin: 0% 0% 0% 70%;
-    background: #f2f2f2;
-    border: solid 1px #f2f2f2;
-    border-radius: 93px;
-    font-size: 1rem;
-    text-align: center;
-    font-family: sans-serif #bdbdbd;
-    width: 25%;
-    height: 2rem;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.search{
+  margin-left: 2%;
+background: #f2f2f2;
+border: solid 1px #f2f2f2;
+border-radius: 93px;
+width: 25%;
+height: 2rem;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 1rem;
+text-align: center;
+font-family: sans-serif;
+color: #fdfdfd;
 }
 
-#all-athletes {
-    display: flex;
-    padding: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100%;
+#all-athletes{
+  width: 100%;
+  display:flex;
+  padding:1rem;
+  flex-flow:wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 
-#box {
-    display: inline-block;
-    width: 15%;
-    background-color: #26798e;
-    border-radius: 10%;
-    margin: 1rem 0 1rem 0;
-    padding: .2rem;
-    box-sizing: border-box;
+.box{ 
+  width:18%;
+  background-color: #26798e;
+  border-radius:10%;
+  margin:1rem 0 1rem 0;
+  padding:.2rem;
+  box-sizing:border-box; 
 }
 
-#box:hover {
-    cursor: pointer;
-    box-shadow: rgba(102, 205, 170);
+.box:hover{
+  cursor: pointer;
+  box-shadow:0 4px 10px 0 rgba(134, 214, 188, 0.9);
 }
 
-.avatar {
-    width: 50%;
-    position: relative;
-    margin-left: 25%;
+.avatar{
+  width: 50%;
+  margin-left: 25%;
 }
 
-.name {
-    text-align: center;
-    font-size: .9rem;
-    font-family: verdana;
-    font-weight: lighter;
-    color: white;
+.name{
+  text-align: center;
+  font-size: .9rem;
+  font-family: verdana;
+  font-weight: lighter;
+  color:white;
 }
 
-.info {
-    font-size: .7rem;
-    font-family: verdana;
-    color: white;
-    text-align: center;
+.info{
+  font-size: .7rem;
+  font-family: verdana;
+  color: white;
+  text-align: center;
 }
 
-.flag {
-    width: 20%;
-    margin-left: 40%;
+.flag{
+  width: 20%;
+  margin-left: 40%;
 }
 
-
-/* seccion disciplinas */
-
-#container {
-    display: flex;
-    background-color: white;
-    width: 100%;
-    padding: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    box-sizing: border-box;
+/* modal */
+.hide{
+  display: none;
 }
 
-.contenedor {
-    position: relative;
-    width: 12%;
-    background-color: white;
-    border: 2px solid #26798e;
-    border-radius: 5%;
-    margin: 1rem auto 1rem auto;
-    padding: .2rem;
-    box-sizing: border-box;
+.modal-athlete{
+  padding-bottom: 2%;
+  position: absolute;
 }
 
-.disciplina {
-    width: 70%;
-    position: auto;
-    margin-left: 14%;
+.box-modal{
+  background-color: rgba(142, 150, 142, 0.7);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  position: fixed;
+
+.avatar2{
+  width: 40%;
+  margin: 0% 0% 2% 0%;
 }
 
-.text {
-    text-align: center;
-    font-size: 1rem;
-    font-family: monospace;
+.athlete{
+  background-color: rgb(42, 150, 150) ;
+  width: 40%;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+  padding: 0% 0% 2% 0%;
+  border-radius: 5%; 
+  margin: auto;
 }
 
-
-/* footer */
-
-footer {
-    height: 10%;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: black;
-    box-sizing: border-box;
+.close{
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 3% 3% 0% 0%;
+  background-color: #fdfdfd;
+  border-radius: 15%;
+  width: 9%;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.textFooter {
-    text-align: center;
-    font-size: 1rem;
-    font-family: sans-serif;
-    margin: 0 0 0 1%;
+table{
+  border-collapse: collapse;
+  margin: 2%;
 }
 
-#athlos {
-    position: relative;
-    font-size: 1rem;
-    font-family: sans-serif;
-    color: white;
+td{
+  border: 1px solid white;
 }
 
-.barra-inferior {
-    position: relative;
-    margin: 0% 0% 0% 68%;
-    box-sizing: border-box;
-    padding: .3rem;
+/* footer */ 
+footer{
+  display: flex;
+  align-items:center;
+  width:100%;
+  background-color:black;
+  box-sizing: border-box;
 }
 
-.footer a:hover {
-    color: gray;
+.athlos-info{
+  width: 80%;
+  padding: .2rem;
+  margin: 0 0 0 .5rem;
+  box-sizing: border-box;
 }
 
-.navFooter {
-    display: flex;
+.athlos{
+  font-size:1rem;
+  font-family:sans-serif;
+  color:white;
 }
+
+.barra-inferior{
+  padding:.3rem;
+  box-sizing:border-box;
+  width: 20%;
+}
+
+.navFooter{
+  display:flex;
+  justify-content: flex-end
