@@ -276,6 +276,20 @@ Para desktop **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS
 
 Para dispositivo móvil **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=200%3A2488&scaling=scale-down
 
+**Fundamentos de Visual Design**
+
+Nuestro prototipo cumple con cada uno de los 4 criterios CRAPR, fundamentos de Visual Design:
+
+**Contraste:** Para dar cumplimiento con este fundamento, nos aseguramos de que el color de la fuentes fueran legibles, utilizando el color blanco en fondos con colores oscuros, e implementando hover para resaltar el logo y las tarjetas de presentación. Asimismo, la paleta de colores es minimalista y se compone de 4 colores como: Blanco, negro, turquesa y gris.
+
+**Repetición:** mantuvimos uniformidad en colores, utilizando una paleta minimalista que hiciera alusión a las olimpiadas, tal y cómo se ha mencionado a lo largo del escrito. Los botones se mantuvieron redondos y del mismo color gris al igual que las tarjetas de presentación de los atletas. La información presente en las tarjetas es igual en todos los atletas (menos la cantidad de medallas, ya que cada deportista posee su propio record), a fin de crear uniformidad.
+
+**Alineación:** Los elementos poseen el mismo tamaño y margen con el fin de darle mayor simetría a la página. Asimismo, las letras, barra de búsqueda y botones para ordenar, están distribuidas uniformemente y sin irrumpir el margen preestablecido con las tarjetas. Los párrafos que estan presentes dentro de las tarjetas poseen una jerarquía, donde el nombre del atleta es más grande que toda la otra información.
+
+**Proximidad:** Se ideó colocar los filtros en el header todos juntos para que así el usuario pueda encontrarlos de forma fácil y rápido, también ordenado. Esta idea surgió de la premisa que los usuarios tiende a leer la pantalla partiendo del header hasta llegar al footer. Además, las tarjetas tal y cómo se mencionó mantienen un margen y centrado constante, para evitar dispersión y desorden de la data.
+
+Una vez los prototipos contando con todo el diseño visual, se procedió a realizar a través de instancias formales, los testeos de usabilidad.
+
 
 ## 7. Testeo de usabilidad
 
@@ -296,6 +310,17 @@ El fin era poder conocer cómo se sentían los usuarios al usar la página, qué
 * Se le pregunta para qué usaria esta página y si siente que cumple con el objetivo de para lo que fue creada.
 
 * Finalmente se agradece su tiempo y colaboración, recalcando y aludiendo que su feedback es muy útil para mejorar nuestra web.
+
+**Busqueda de atleta por género**
+
+![umapa](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa.jpg)
+
+![mapa](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa2.jpg)
+
+**Interacción de los usuarios con otras secciones**
+
+![mapa2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa3.jpg)
+
 
 ## 8. Feedback de test de usabilidad
 
@@ -348,6 +373,9 @@ Logo para dispositivos móviles
 ## 9. Aplicación y anexos complementarios
 
 **Link para utilizar Athlos, buscador de medallistas olimpicos** 
+
+**Test**
+![test](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/test.png)
 
 **Formulario encuesta primer acercamiento usuarios Athlos** 
 
