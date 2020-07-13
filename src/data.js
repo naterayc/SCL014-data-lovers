@@ -36,3 +36,21 @@ export const sortedDescendent = (data) => {
     });
     return result;
 };
+// funcion para filtrar por genero
+export const filterbyGender = (data, gender) => {
+  const filtered = data.filter(atleta => atleta.genero === gender);
+  return filtered;
+};
+
+// funcion para filtrar por pais
+export const filterByCountry = (data, country) => {
+  const filtered = data.filter(atleta => atleta.equipo === country);
+  return filtered;
+};
+
+// funcion para filtrar por disciplina
+export const filterByDiscipline = (data, discipline) => {
+  const unfiltered = data.filter(atleta => atleta.disciplinas);
+  const filtered = unfiltered.filter(atletas => atletas.disciplinas[0].disciplina === discipline);
+  return filtered;
+};

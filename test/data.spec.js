@@ -1,4 +1,11 @@
-import { defineFlag, sortedAscendent, sortedDescendent } from '../src/data.js';
+import {
+  defineFlag,
+  sortedAscendent,
+  sortedDescendent,
+  filterbyGender,
+  filterByDiscipline,
+  filterByCountry,
+} from '../src/data.js';
 
 
 describe('defineFlag', () => {
@@ -103,5 +110,23 @@ describe('sortDescendent', () => {
         nombre: 'Aaron Wells Peirsol',
       },
     ]);
+  });
+});
+
+describe('filterbyGender', () => {
+  it('is a function', () => {
+    expect(typeof filterbyGender).toBe('function');
+  });
+});
+
+describe('filterByDiscipline', () => {
+  it('is a function', () => {
+    expect(typeof filterByDiscipline).toBe('function');
+  });
+});
+
+describe('filterByCountry', () => {
+  it('is a function', () => {
+    expect(typeof filterByCountry).toBe('function');
   });
 });
