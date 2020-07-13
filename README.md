@@ -268,17 +268,15 @@ Una vez efectuados los cambios, los usuarios comentaron sentirse más familiariz
 
 Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
 
-![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/des.jpg)
+![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logos.jpg)
 
 Para desktop **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=82%3A886&scaling=min-zoom
-
-![movil](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mol.jpg)
 
 Para dispositivo móvil **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=200%3A2488&scaling=scale-down
 
 **Fundamentos de Visual Design**
 
-Nuestro prototipo cumple con cada uno de los 4 criterios CRAPR, fundamentos de Visual Design:
+Nuestro prototipo cumple con cada uno de los 4 criterios CRAP, fundamentos de Visual Design:
 
 **Contraste:** Para dar cumplimiento con este fundamento, nos aseguramos de que el color de la fuentes fueran legibles, utilizando el color blanco en fondos con colores oscuros, e implementando hover para resaltar el logo y las tarjetas de presentación. Asimismo, la paleta de colores es minimalista y se compone de 4 colores como: Blanco, negro, turquesa y gris.
 
@@ -312,6 +310,8 @@ El fin era poder conocer cómo se sentían los usuarios al usar la página, qué
 * Finalmente se agradece su tiempo y colaboración, recalcando y aludiendo que su feedback es muy útil para mejorar nuestra web.
 
 **Busqueda de atleta por género**
+
+Esta tarea asignada, los usuarios que lle
 
 ![umapa](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa.jpg)
 
@@ -358,7 +358,7 @@ Gustó la idea de creación de una página web para atletas ya que se enaltece y
 
 La paleta de colores que se había planteado en un principio no les gustó a los usuarios, encontraban que no hacía tanta alusión a los juegos olímpicos, por ello, se planteó una nueva paleta que conjugase los colores: negro, blanco, gris y azul turquesa, este último evocando a las pistas de atletismo, a las piscinas olimpicas, los trajes de las gimnastas y patinadoras, y porque también fue uno de los colores que más les gustó de la paleta anterior. A continuación se muestra el resultado de la paleta obtenida.  
 
-![Colors](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/colorido.jpg)
+![paleta](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/paleta.jpg)
 
 El logo que se había planteado en principio no se lograba visualizar en el header, se confundía o perdía. Por ello se propuso uno nuevo que se muestra a continuación en sus dos versiones para pantallas grandes y chicas, entendiendo que la web es responsive. Este logo al igual que el que se habia planteado en un principio tiene un porqué de su diseño, abarca el nombre griego, lleva la llama olímpica y también los anillos que hacen alusión a los juegos. 
 

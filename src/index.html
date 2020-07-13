@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athlos</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.png">
-  </head>
+</head>
 
 <body>
     <header class="header">
-      <a href="">
-        <div class="logo">
-          <img src="imagenes/logo.png" width="90%" alt="logo" />
-        </div>
-      </a>
-      <nav class="navegador">
-        <select id="discipline" class="selects">
+        <a href="">
+            <div class="logo">
+                <picture>
+                    <source media="(min-width: 650px)" srcset="imagenes/logo.png">
+                    <img src="imagenes/logo2.png" width="60vw" alt="logo" />
+                </picture>
+            </div>
+        </a>
+        <nav class="navegador">
+            <select id="discipline" class="selects">
           <option value="" class="options" disabled selected>DISCIPLINAS</option>
         </select>
-        <select id="country" class="selects">
+            <select id="country" class="selects">
           <option value="" class="options" disabled selected>PAÍS</option>
         </select>
-        <select id="gender" class="selects">
+            <select id="gender" class="selects">
           <option value="" class="options" disabled selected>GÉNERO</option>
           <option value="F" class="options">Femenino</option>
           <option value="M" class="options">Masculino</option>
         </select>
-      </nav>
+        </nav>
     </header>
     <main>
-    <div class="input">
-      <h2 id="title" class="title">ATLETAS</h2>
-      <button type="button" id="a-z" class="button-az">A-Z</button>
-      <button type="button" id="z-a" class="button-za">Z-A</button>
-      <input id="search" class="search" type="text" placeholder="Buscar por nombre">
-    </div>
-    <div id="all-athletes"></div>
-    <div id="modal-athlete" class="modal-athlete hide"></div>
-  </main>
-    
-    <footer>
-      <div class="athlos-info">
-        <p class="athlos"> © ATLOS 2020 - Buscador de medallistas olimpicos desde Beijing 2008 hasta la actualidad</p>
-      </div>
-      <div class="barra-inferior">
-      <nav class="navFooter">
-        <a href="https://www.facebook.com/OlympicChannel/" target="blank">
-          <img id="facebook" src="imagenes/facebook.png">
-        </a>
-        <a href="https://www.instagram.com/olympicchannel/" target="blank">
-          <img id="instagram" src="imagenes/instagram.png">
-        </a>
-        <a href="https://twitter.com/olympicchannel/" target="blank">
-          <img id="twitter" src="imagenes/twitter.png">
-        </a>
-      </nav>
-      </div>
-    </footer> 
-  </body>
+        <div class="input">
+            <h2 id="title" class="title">ATLETAS</h2>
+            <button type="button" id="a-z" class="button-az">A-Z</button>
+            <button type="button" id="z-a" class="button-za">Z-A</button>
+            <input id="search" class="search" type="text" placeholder="Buscar por nombre">
+        </div>
+        <div id="all-athletes"></div>
+        <div id="modal-athlete" class="modal-athlete hide"></div>
+    </main>
 
-    <script src="main.js" type="module"></script>
+    <footer>
+        <div class="athlos-info">
+            <p class="athlos"> © ATLOS 2020 - Buscador de medallistas olimpicos desde Beijing 2008 hasta la actualidad</p>
+        </div>
+        <div class="barra-inferior">
+            <nav class="navFooter">
+                <a href="https://www.facebook.com/OlympicChannel/" target="blank">
+                    <img id="facebook" src="imagenes/facebook.png">
+                </a>
+                <a href="https://www.instagram.com/olympicchannel/" target="blank">
+                    <img id="instagram" src="imagenes/instagram.png">
+                </a>
+                <a href="https://twitter.com/olympicchannel/" target="blank">
+                    <img id="twitter" src="imagenes/twitter.png">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+<script src="main.js" type="module"></script>
 
 </html>
