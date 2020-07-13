@@ -402,5 +402,6 @@ Athlos, es un buscador de medallistas olímpicos desde Beijing 2008, que genera 
 
 **Desarrolladoras**
 
-Yndira Natera
-Namastheys Soledad Bastardo
+*Yndira Natera
+
+*Namastheys Soledad Bastardo
