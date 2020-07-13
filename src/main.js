@@ -12,9 +12,9 @@ const data = dataDisciplines.filter(athletesList => (athletesList.disciplinas[0]
 
 
 // mostrar a todos los atletas
-const showAthletes = () => {
+const showAthletes = (dataAmostrar) => {
   let info = '';
-  data.forEach((obj) => {
+  dataAmostrar.forEach((obj) => {
     const box = document.createElement('div');
     box.setAttribute('id', 'box');
     box.setAttribute('class', 'box');
@@ -94,61 +94,8 @@ genderFilter.addEventListener('change', () => {
   document.getElementById('countryFilter').value = '';
   document.getElementById('disciplineFilter').value = '';
 
-  //funcion que muestra la data filtrada
-  const showFilterData = () => {
-    let info = '';
-    newData.forEach((obj) => {
-      const newBox = document.createElement('div');
-      newBox.setAttribute('id', 'box');
-      newBox.setAttribute('class', 'box');
-      info = `<img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar">
-      <p class="name">${obj.nombre}</p>
-      <p class="info">${obj.deporte}</p>
-      <p class="info">${obj.disciplinas.map(year => year.año)}</p>
-      <p class="info">${obj.equipo}</p>`;
-      allAthletes.appendChild(newBox);
-      newBox.innerHTML = info;
-
-      // mostrar modal en data filtrada
-      const showFilterAthleteModal = () => {
-        let infoFilterAthleteModal = '';
-        const boxFilterModal = document.createElement('div');
-        boxFilterModal.setAttribute('id', 'box-modal');
-        boxFilterModal.setAttribute('class', 'box-modal');
-        infoFilterAthleteModal = `<div class="athlete">
-    <span class="close" id="close">&times;</span>
-    <img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar2">
-    <p class="name-modal">${obj.nombre}</p>
-    <table>
-    <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero}</p></td></tr>
-    <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">${obj.altura} cm</p></td></tr>
-    <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">${obj.peso} kg</p></td></tr>
-    <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal">${obj.deporte}</p></td></tr>
-    <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal">${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
-    <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">${obj.equipo}</p></td></tr>
-    <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">${obj.disciplinas.map(year => year.año)}</p></td></tr>
-    <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
-    <tr><td><p class="info-modal">Medallas: </p></td><td><p class="info-modal">${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
-    </table>
-    </div>`;
-        document.querySelector('#modal-athlete').appendChild(boxFilterModal);
-        boxFilterModal.innerHTML = infoFilterAthleteModal;
-
-        // funcionalidad cerrar modal
-        const close = document.querySelector('#close');
-        close.addEventListener('click', () => {
-          document.querySelector('#modal-athlete').removeChild(boxFilterModal);
-        });
-      };
-      // mostrar modal al hacer click
-      newBox.addEventListener('click', () => {
-        showFilterAthleteModal(obj);
-        document.querySelector('#modal-athlete').classList.remove('hide');
-      });
-    });
-  };
   allAthletes.innerHTML = '';
-  showFilterData(newData);
+  showAthletes(newData);
 });
 
 // lista de options en selects disciplinas
@@ -190,62 +137,8 @@ disciplinesFilter.addEventListener('change', () => {
   document.getElementById('countryFilter').value = '';
   document.getElementById('genderFilter').value = '';
 
-  // mostrar la data filtrada
-  const showFilterData = () => {
-    let info = '';
-    newData.forEach((obj) => {
-      const newBox = document.createElement('div');
-      newBox.setAttribute('id', 'box');
-      newBox.setAttribute('class', 'box');
-      info = `<img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar">
-      <p class="name">${obj.nombre}</p>
-      <p class="info">${obj.deporte}</p>
-      <p class="info">${obj.disciplinas.map(year => year.año)}</p>
-      <p class="info">${obj.equipo}</p>`;
-      // <img class="flag" src ="https://www.countryflags.io/${defineFlag(obj.noc,)}/flat/64.png">`;
-      allAthletes.appendChild(newBox);
-      newBox.innerHTML = info;
-
-      // mostrar modal en data filtrada
-      const showFilterAthleteModal = () => {
-        let infoFilterAthleteModal = '';
-        const boxFilterModal = document.createElement('div');
-        boxFilterModal.setAttribute('id', 'box-modal');
-        boxFilterModal.setAttribute('class', 'box-modal');
-        infoFilterAthleteModal = `<div class="athlete">
-    <span class="close" id="close">&times;</span>
-    <img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar2">
-    <p class="name-modal">${obj.nombre}</p>
-    <table>
-    <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero}</p></td></tr>
-    <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">${obj.altura} cm</p></td></tr>
-    <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">${obj.peso} kg</p></td></tr>
-    <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal">${obj.deporte}</p></td></tr>
-    <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal">${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
-    <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">${obj.equipo}</p></td></tr>
-    <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">${obj.disciplinas.map(year => year.año)}</p></td></tr>
-    <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
-    <tr><td><p class="info-modal">Medallas: </p></div></td><td><p class="info-modal">${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
-    </table>
-    </div>`;
-        document.querySelector('#modal-athlete').appendChild(boxFilterModal);
-        boxFilterModal.innerHTML = infoFilterAthleteModal;
-
-        // funcionalidad cerrar modal
-        const close = document.querySelector('#close');
-        close.addEventListener('click', () => {
-          document.querySelector('#modal-athlete').removeChild(boxFilterModal);
-        });
-      };
-      // mostrar modal al hacer click
-      newBox.addEventListener('click', () => {
-        showFilterAthleteModal(obj);
-        document.querySelector('#modal-athlete').classList.remove('hide');
-      });
-    });
-  };
   allAthletes.innerHTML = '';
-  showFilterData(newData);
+  showAthletes(newData);
 });
 
 
@@ -276,62 +169,8 @@ countrysFilter.addEventListener('change', () => {
   document.getElementById('disciplineFilter').value = '';
   document.getElementById('genderFilter').value = '';
 
-  // mostrar data fitrada
-  const showFilterData = () => {
-    let info = '';
-    newData.forEach((obj) => {
-      const newBox = document.createElement('div');
-      newBox.setAttribute('id', 'box');
-      newBox.setAttribute('class', 'box');
-      info = `<img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar">
-      <p class="name">${obj.nombre}</p>
-      <p class="info">${obj.deporte}</p>
-      <p class="info">${obj.disciplinas.map(year => year.año)}</p>
-      <p class="info">${obj.equipo}</p>`;
-      // <img class="flag" src ="https://www.countryflags.io/${defineFlag(obj.noc,)}/flat/64.png">`;
-      allAthletes.appendChild(newBox);
-      newBox.innerHTML = info;
-
-      // mostrar modal en data filtrada
-      const showFilterAthleteModal = () => {
-        let infoFilterAthleteModal = '';
-        const boxFilterModal = document.createElement('div');
-        boxFilterModal.setAttribute('id', 'box-modal');
-        boxFilterModal.setAttribute('class', 'box-modal');
-        infoFilterAthleteModal = `<div class="athlete">
-    <span class="close" id="close">&times;</span>
-    <img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar2">
-    <p class="name-modal">${obj.nombre}</p>
-    <table>
-    <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero}</p></td></tr>
-    <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">${obj.altura} cm</p></td></tr>
-    <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">${obj.peso} kg</p></td></tr>
-    <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal">${obj.deporte}</p></td></tr>
-    <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal">${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
-    <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">${obj.equipo}</p></td></tr>
-    <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">${obj.disciplinas.map(year => year.año)}</p></td></tr>
-    <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
-    <tr><td><p class="info-modal">Medallas: </p></div></td><td><p class="info-modal">${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
-    </table>
-    </div>`;
-        document.querySelector('#modal-athlete').appendChild(boxFilterModal);
-        boxFilterModal.innerHTML = infoFilterAthleteModal;
-
-        // funcionalidad cerrar modal
-        const close = document.querySelector('#close');
-        close.addEventListener('click', () => {
-          document.querySelector('#modal-athlete').removeChild(boxFilterModal);
-        });
-      };
-      // mostrar modal al hacer click
-      newBox.addEventListener('click', () => {
-        showFilterAthleteModal(obj);
-        document.querySelector('#modal-athlete').classList.remove('hide');
-      });
-    });
-  };
   allAthletes.innerHTML = '';
-  showFilterData(newData);
+  showAthletes(newData);
 });
 
 
