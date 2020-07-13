@@ -9,8 +9,9 @@
 * [5. Usuarios](#5-usuarios)
 * [6. Diseño de interfaz](#6-diseño-de-interfaz)
 * [7. Test de usabilidad](#7-test-de-usabilidad)
-* [8. Feedback de test de usabilidad](#7-feedback-de-test-de-usabilidad)
-* [9. Aplicación y anexos complementarios](#8-aplicación-y-anexos-complementarios)
+* [8. Feedback de test de usabilidad](#8-feedback-de-test-de-usabilidad)
+* [9. Conclusiones](#9-conclusiones)
+* [10. Aplicación y anexos complementarios](#10-aplicación-y-anexos-complementarios)
 
 
 ***
@@ -268,9 +269,11 @@ Una vez efectuados los cambios, los usuarios comentaron sentirse más familiariz
 
 Para cumplir con el objetivo de ser una web responsive, creamos un prototipo versión desktop y móvil, los cuales puede ejecutar en cada link correspondiente.
 
-![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logos.jpg)
+![desktop](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/des.jpg)
 
 Para desktop **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=82%3A886&scaling=min-zoom
+
+![mol](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mol.jpg)
 
 Para dispositivo móvil **link:** https://www.figma.com/proto/9uv6YAcZvm7BIYkM7usyay/ATHLOS?node-id=200%3A2488&scaling=scale-down
 
@@ -311,13 +314,19 @@ El fin era poder conocer cómo se sentían los usuarios al usar la página, qué
 
 **Busqueda de atleta por género**
 
-Esta tarea asignada, los usuarios que lle
+Esta tarea asignada, el 75,5% de los usuarios pudieron llevarla a cabo, mientras que el 24,5% la abandonó por no saber cómo hacerlo. El tiempo promedio de ejecución fue de 1´3,4". En general con este resultado se puede concluir que la página expresa fácilmente la forma de poder filtrar por género. 
+
+Los usuarios se conectaron a trevés de diferentes dispositivos: Desktop, android y iphone, gracias a lo responsivo del prototipo.
 
 ![umapa](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa.jpg)
+
+En los mapas de calor se aprecia el recorrido que hicieron los usuarios al interactuar con la página y poder llevar a cabo la tarea asignada. En este sentido, en el área de los filtros se reflejan manchas que hacen ver la atención de los usuarios por ellos. También se aprecia que al desplegar el filtro género, todos pudieron consultar tanto a los atletas femeninos y masculinos.
 
 ![mapa](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa2.jpg)
 
 **Interacción de los usuarios con otras secciones**
+
+Los usuarios además de realizar la tarea de buscar por género, interactuaron con otras secciones de la página cómo el buscador por nombre, los modales que muestran la información de los atletas, el logo Athlos y el filtro por país.
 
 ![mapa2](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/mapa3.jpg)
 
@@ -362,15 +371,17 @@ La paleta de colores que se había planteado en un principio no les gustó a los
 
 El logo que se había planteado en principio no se lograba visualizar en el header, se confundía o perdía. Por ello se propuso uno nuevo que se muestra a continuación en sus dos versiones para pantallas grandes y chicas, entendiendo que la web es responsive. Este logo al igual que el que se habia planteado en un principio tiene un porqué de su diseño, abarca el nombre griego, lleva la llama olímpica y también los anillos que hacen alusión a los juegos. 
 
-Logo para desktop
+Logos
 
-![Logod](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logo2.JPG)
+![computador](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logos.jpg)
 
-Logo para dispositivos móviles
+# 9. Conclusiones finales
 
-![logom](https://github.com/Namastheyssoledasbaspe/SCL014-data-lovers/blob/master/src/imagenes/logo1.JPG)
+Durante el proceso que conllevó la ideación, maquetación y creación de la página web **Athlos**, surgieron cambios que contribuyeron a una mejor versión para la comprensión de su objetivo. Dichos cambios fueron generados a través de los testeos con usuarios, quienes proporcionaron sus comentarios y feedback a fin de establecer sus gustos, prioridades al momento de visitar y interactuar con el buscador de medallistas olímpicos.
 
-## 9. Aplicación y anexos complementarios
+Athlos, es un buscador de medallistas olímpicos desde Beijing 2008, que genera una buscaqueda rápida, confiable y ordenada. Es una página ideada para usuarios aficionados, atletas, deportistas y periodistas, sin rango de edad, por ello su distribución, para que sea entendible y fácil de usar.
+
+## 10. Aplicación y anexos complementarios
 
 **Link para utilizar Athlos, buscador de medallistas olimpicos** 
 
@@ -389,3 +400,7 @@ Logo para dispositivos móviles
 
 **link:** https://trello.com/b/TsavtLXm/planificaci%C3%B3n-athlos
 
+**Desarrolladoras**
+
+Yndira Natera
+Namastheys Soledad Bastardo
