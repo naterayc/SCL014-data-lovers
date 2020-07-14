@@ -119,14 +119,196 @@ describe('filterbyGender', () => {
   });
 });
 
+const athletesThree = [
+  {
+    nombre: 'Matteo Bisiani',
+    genero: 'M',
+    altura: '184',
+    peso: '85',
+    deporte: 'Archery',
+    equipo: 'Italy',
+    noc: 'ITA',
+    disciplinas: [
+      {
+        disciplina: 'Archery Mens Team',
+        temporada: 'Summer',
+        año: 2000,
+        ciudad: 'Sydney',
+        medalla: 'Silver',
+      },
+    ],
+  },
+  {
+    nombre: 'Nataliya Andrivna Burdeina',
+    genero: 'F',
+    altura: '165',
+    peso: '63',
+    deporte: 'Archery',
+    equipo: 'Ukraine',
+    noc: 'UKR',
+    disciplinas: [
+      {
+        disciplina: 'Archery Womens Team',
+        temporada: 'Summer',
+        año: 2000,
+        ciudad: 'Sydney',
+        medalla: 'Silver',
+      },
+    ],
+  },
+  {
+    nombre: 'Ilario Di Bu',
+    genero: 'M',
+    altura: '175',
+    peso: '90',
+    deporte: 'Archery',
+    equipo: 'Italy',
+    noc: 'ITA',
+    disciplinas: [
+      {
+        disciplina: 'Archery Mens Team',
+        temporada: 'Summer',
+        año: 2000,
+        ciudad: 'Sydney',
+        medalla: 'Silver',
+      },
+      {
+        disciplina: 'Archery Mens Team',
+        temporada: 'Summer',
+        año: 2008,
+        ciudad: 'Beijing',
+        medalla: 'Silver',
+      },
+    ],
+  },
+];
+
+it('returns `filterbyGender`', () => {
+  expect(filterbyGender(athletesThree, 'F')).toEqual([
+    {
+      nombre: 'Nataliya Andrivna Burdeina',
+      genero: 'F',
+      altura: '165',
+      peso: '63',
+      deporte: 'Archery',
+      equipo: 'Ukraine',
+      noc: 'UKR',
+      disciplinas: [
+        {
+          disciplina: 'Archery Womens Team',
+          temporada: 'Summer',
+          año: 2000,
+          ciudad: 'Sydney',
+          medalla: 'Silver',
+        },
+      ],
+    },
+  ]);
+});
+
 describe('filterByDiscipline', () => {
   it('is a function', () => {
     expect(typeof filterByDiscipline).toBe('function');
   });
 });
+it('returns `filterByDiscipline`', () => {
+  expect(filterByDiscipline(athletesThree, 'Archery Mens Team')).toEqual([
+    {
+      nombre: 'Matteo Bisiani',
+      genero: 'M',
+      altura: '184',
+      peso: '85',
+      deporte: 'Archery',
+      equipo: 'Italy',
+      noc: 'ITA',
+      disciplinas: [
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2000,
+          ciudad: 'Sydney',
+          medalla: 'Silver',
+        },
+      ],
+    },
+    {
+      nombre: 'Ilario Di Bu',
+      genero: 'M',
+      altura: '175',
+      peso: '90',
+      deporte: 'Archery',
+      equipo: 'Italy',
+      noc: 'ITA',
+      disciplinas: [
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2000,
+          ciudad: 'Sydney',
+          medalla: 'Silver',
+        },
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2008,
+          ciudad: 'Beijing',
+          medalla: 'Silver',
+        },
+      ],
+    },
+  ]);
+});
+
 
 describe('filterByCountry', () => {
   it('is a function', () => {
     expect(typeof filterByCountry).toBe('function');
   });
+});
+it('returns `filterByCountry`', () => {
+  expect(filterByCountry(athletesThree, 'Italy')).toEqual([
+    {
+      nombre: 'Matteo Bisiani',
+      genero: 'M',
+      altura: '184',
+      peso: '85',
+      deporte: 'Archery',
+      equipo: 'Italy',
+      noc: 'ITA',
+      disciplinas: [
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2000,
+          ciudad: 'Sydney',
+          medalla: 'Silver',
+        },
+      ],
+    },
+    {
+      nombre: 'Ilario Di Bu',
+      genero: 'M',
+      altura: '175',
+      peso: '90',
+      deporte: 'Archery',
+      equipo: 'Italy',
+      noc: 'ITA',
+      disciplinas: [
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2000,
+          ciudad: 'Sydney',
+          medalla: 'Silver',
+        },
+        {
+          disciplina: 'Archery Mens Team',
+          temporada: 'Summer',
+          año: 2008,
+          ciudad: 'Beijing',
+          medalla: 'Silver',
+        },
+      ],
+    },
+  ]);
 });

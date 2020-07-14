@@ -1,14 +1,23 @@
 import dataAtletas from './data/atletas/atletas.js';
 import {
-  sortedAscendent, sortedDescendent, filterbyGender, filterByCountry, filterByDiscipline,
+  sortedAscendent,
+  sortedDescendent,
+  filterbyGender,
+  filterByCountry,
+  filterByDiscipline,
 } from './data.js';
 
 const allAthletes = document.querySelector('#all-athletes');
 
-// filtrando la data para trabajar con los atletas desde Rio 2008
+// filtrando la data para trabajar con los atletas desde Beijing 2008
 const athletes = dataAtletas.atletas;
 const dataDisciplines = athletes.filter(athlete => (athlete.disciplinas));
 const data = dataDisciplines.filter(athletesList => (athletesList.disciplinas[0].año > 2007));
+let eventOrder = 0;
+let dataSorted;
+let dataFilteredD;
+let dataFilteredC;
+let dataFilteredG;
 
 
 // mostrar a todos los atletas
@@ -69,33 +78,54 @@ showAthletes(data);
 
 // funcionalidad del boton ordenar A-Z
 document.getElementById('a-z').addEventListener('click', () => {
+  if (eventOrder === 0) {
+    dataSorted = data;
+  }
+  if (eventOrder === 1) {
+    dataSorted = dataFilteredG;
+  }
+  if (eventOrder === 2) {
+    dataSorted = dataFilteredD;
+  }
+  if (eventOrder === 3) {
+    dataSorted = dataFilteredC;
+  }
+
   allAthletes.innerHTML = '';
-  showAthletes(sortedAscendent(data));
+  showAthletes(sortedAscendent(dataSorted));
 });
 
 // funcionalidad del boton ordenar Z-A
 document.getElementById('z-a').addEventListener('click', () => {
+  if (eventOrder === 0) {
+    dataSorted = data;
+  }
+  if (eventOrder === 1) {
+    dataSorted = dataFilteredG;
+  }
+  if (eventOrder === 2) {
+    dataSorted = dataFilteredD;
+  }
+  if (eventOrder === 3) {
+    dataSorted = dataFilteredC;
+  }
+
   allAthletes.innerHTML = '';
-  showAthletes(sortedDescendent(data));
+  showAthletes(sortedDescendent(dataSorted));
 });
 
 // funcionalidad del filtro por genero
 const genderFilter = document.querySelector('#genderFilter');
 
 genderFilter.addEventListener('change', () => {
+  eventOrder = 1;
   document.querySelector('#disciplineFilter').value = '';
   document.querySelector('#countryFilter').value = '';
   const value = genderFilter.value;
-  const newData = filterbyGender(data, value);
-
-  document.querySelector('#a-z').style.display = 'none';
-  document.querySelector('#z-a').style.display = 'none';
-  document.querySelector('.search').style.marginLeft = '57%';
-  document.getElementById('countryFilter').value = '';
-  document.getElementById('disciplineFilter').value = '';
+  dataFilteredG = filterbyGender(data, value);
 
   allAthletes.innerHTML = '';
-  showAthletes(newData);
+  showAthletes(dataFilteredG);
 });
 
 // lista de options en selects disciplinas
@@ -128,17 +158,15 @@ const selectDiscipline = document.querySelector('#disciplineFilter');
 // funcionalidad del filtro por disciplinas
 const disciplinesFilter = document.getElementById('disciplineFilter');
 disciplinesFilter.addEventListener('change', () => {
+  eventOrder = 2;
   const value = disciplinesFilter.value;
-  const newData = filterByDiscipline(data, value);
+  dataFilteredD = filterByDiscipline(data, value);
 
-  document.querySelector('#a-z').style.display = 'none';
-  document.querySelector('#z-a').style.display = 'none';
-  document.querySelector('.search').style.marginLeft = '57%';
   document.getElementById('countryFilter').value = '';
   document.getElementById('genderFilter').value = '';
 
   allAthletes.innerHTML = '';
-  showAthletes(newData);
+  showAthletes(dataFilteredD);
 });
 
 
@@ -160,17 +188,16 @@ const selectCountry = document.querySelector('#countryFilter');
 // funcionalidad del filtro por pais
 const countrysFilter = document.getElementById('countryFilter');
 countrysFilter.addEventListener('change', () => {
+  eventOrder = 3;
   const value = countrysFilter.value;
-  const newData = filterByCountry(data, value);
+  dataFilteredC = filterByCountry(data, value);
 
-  document.querySelector('#a-z').style.display = 'none';
-  document.querySelector('#z-a').style.display = 'none';
-  document.querySelector('.search').style.marginLeft = '57%';
+
   document.getElementById('disciplineFilter').value = '';
   document.getElementById('genderFilter').value = '';
 
   allAthletes.innerHTML = '';
-  showAthletes(newData);
+  showAthletes(dataFilteredC);
 });
 
 
