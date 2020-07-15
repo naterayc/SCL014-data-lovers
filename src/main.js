@@ -217,3 +217,28 @@ searcher.addEventListener('input', (e) => {
     }
   });
 });
+
+// funcionalidad del boton gotop godown
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 900) {
+  document.querySelector('#go-top').classList.remove('hide');
+  document.querySelector('#go-down').classList.remove('hide');
+  }
+  else {
+    document.querySelector('#go-top').classList.add('hide');
+    document.querySelector('#go-down').classList.add('hide');
+  }
+  if (window.pageYOffset > 197000) {
+    document.querySelector('#go-down').classList.add('hide');
+  }
+});
+
+document.getElementById('go-top').addEventListener('click', () =>{
+  const header = document.querySelector('.header');
+  header.scrollIntoView({behavior:"smooth"});
+});
+
+document.getElementById('go-down').addEventListener('click', () => {
+  const footer = document.querySelector('.athlos-info');
+  footer.scrollIntoView({behavior:"smooth"});
+});
