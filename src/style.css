@@ -123,6 +123,38 @@ color: #3d3d3d;
 box-sizing: border-box;
 }
 
+.gotop{
+  background: #f2f2f2 url(imagenes/arrowtop.png) no-repeat center;
+  position:fixed;
+  bottom: 70px;
+  right: 10px;
+  font-size: 1rem;
+  color: #F2F2F2;
+  cursor:pointer;
+  padding:1rem;
+  margin: 10px;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+  border-radius: 95px;
+}
+
+.godown{
+    background: #f2f2f2 url(imagenes/arrowdown.png) no-repeat center;
+    position:fixed;
+    bottom: 18px;
+    right: 10px;
+    font-size: 1rem;
+    color: #F2F2F2;
+    cursor:pointer;
+    padding:1rem;
+    margin: 10px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+    border-radius: 95px;
+  }
+
 #all-athletes{
   width: 100%;
   display:flex;
