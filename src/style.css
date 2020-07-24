@@ -13,6 +13,7 @@ html {
   display: flex;
   align-items: center;
   width: 100%;
+  height: 70px;
   padding: 1%;
   background-color: black;
   box-sizing: border-box;
@@ -20,27 +21,29 @@ html {
 
 a{
   margin: 0%;
-  width: 15%;
+  width: 18%;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .logo{
   width: 80%;
-  height: 40%;
-  margin-left: 17%;
+  height: 100%;
+  margin-left: 10%;
 }
 
 .navegador{
   display: flex;
   margin: 0% 0% 0% 27%;
   width: 85%;
+  justify-content: flex-end;
   box-sizing: border-box;
 }
 
 .selects{
   width: 25%;
-  background-color: black;
-  border: black;
+  background-color: rgb(0, 0, 0);
+  border: rgba(0, 0, 0, 0.411);
   margin: 0% 5% 0% 0%;
   margin-block-end: 0%;
   font-size: 1.3rem;
@@ -126,7 +129,7 @@ box-sizing: border-box;
 .gotop{
   background: #f2f2f2 url(imagenes/arrowtop.png) no-repeat center;
   position:fixed;
-  bottom: 70px;
+  bottom: 100px;
   right: 10px;
   font-size: 1rem;
   color: #F2F2F2;
@@ -142,7 +145,7 @@ box-sizing: border-box;
 .godown{
     background: #f2f2f2 url(imagenes/arrowdown.png) no-repeat center;
     position:fixed;
-    bottom: 18px;
+    bottom: 45px;
     right: 10px;
     font-size: 1rem;
     color: #F2F2F2;
@@ -226,8 +229,8 @@ box-sizing: border-box;
 }
 
 .athlete{
-  background-color: rgb(42, 150, 150) ;
-  width: 40%;
+  background-color: rgb(42, 150, 150);
+  width: 30%;
   display: flex;
   flex-direction: column;    
   align-items: center;
@@ -284,7 +287,7 @@ footer{
   justify-content: center;
   width:100%;
   height: 50px;
-  background-color:black;
+  background-color:rgb(0, 0, 0);
   box-sizing: border-box;
 }
 
@@ -303,13 +306,23 @@ footer{
 
 .barra-inferior{
   padding:.3rem;
+  align-items: center;
   box-sizing:border-box;
   width: 20%;
 }
 
 .navFooter{
   display:flex;
+  align-items: center;
   justify-content: flex-end
+}
+.navFooter>a{
+  height: 25px;
+  width: 25px;
+  margin-left: 5%;
+}
+.navFooter>a:last-of-type{
+    margin-right: 5%;
 }
 
 @media (max-width:480px) {
@@ -336,6 +349,7 @@ footer{
         display: flex;
         margin: 0% 0% 0% 5%;
         width: 74%;
+        justify-content: flex-end;
         box-sizing: border-box;
         margin-right: 3%;
     }
@@ -413,7 +427,7 @@ footer{
         font-size: 0.7rem;
         text-align: center;
         font-family: sans-serif;
-        color: #fdfdfd;
+        color: #3d3d3d;
     }
     #all-athletes {
         width: 100%;
@@ -560,6 +574,7 @@ footer{
       display: flex;
       margin: 0% 0% 0% 5%;
       width: 74%;
+      justify-content: flex-end;
       box-sizing: border-box;
       margin-right: 3%;
   }
@@ -638,7 +653,7 @@ footer{
       font-size: 0.9rem;
       text-align: center;
       font-family: sans-serif;
-      color: #fdfdfd;
+      color: #3d3d3d;
   }
   #all-athletes {
       width: 100%;
@@ -858,7 +873,7 @@ footer{
         font-size: 1rem;
         text-align: center;
         font-family: sans-serif;
-        color: #fdfdfd;
+        color: #3d3d3d;
     }
     #all-athletes {
         width: 100%;
@@ -936,7 +951,7 @@ footer{
     }
     .athlete {
         background-color: rgb(42, 150, 150);
-        width: 60%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;

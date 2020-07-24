@@ -2,7 +2,7 @@ import dataAtletas from './data/atletas/atletas.js';
 import {
   sortedAscendent,
   sortedDescendent,
-  filterbyGender,
+  filterByGender,
   filterByCountry,
   filterByDiscipline,
 } from './data.js';
@@ -14,7 +14,7 @@ const athletes = dataAtletas.atletas;
 const dataDisciplines = athletes.filter(athlete => (athlete.disciplinas));
 const data = dataDisciplines.filter(athletesList => (athletesList.disciplinas[0].año > 2007));
 let eventOrder = 0;
-let dataSorted;
+let dataToSort;
 let dataFilteredD;
 let dataFilteredC;
 let dataFilteredG;
@@ -47,15 +47,15 @@ const showAthletes = (dataAmostrar) => {
       <img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar2">
       <p class="name-modal">${obj.nombre}</p>
       <table>
-      <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero}</p></td></tr>
-      <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">${obj.altura} cm</p></td></tr>
-      <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">${obj.peso} kg</p></td></tr>
-      <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal">${obj.deporte}</p></td></tr>
-      <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal">${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
-      <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">${obj.equipo}</p></td></tr>
-      <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">${obj.disciplinas.map(year => year.año)}</p></td></tr>
-      <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
-      <tr><td><p class="info-modal">Medallas: </p></td><td><p class="info-modal">${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
+      <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero === 'F' ? '♀️' : '♂️' }</p></td></tr>
+      <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">📏 ${obj.altura} cm</p></td></tr>
+      <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">⚖️ ${obj.peso} kg</p></td></tr>
+      <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal"> ${obj.deporte}</p></td></tr>
+      <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal"> ${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
+      <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">🎽 ${obj.equipo}</p></td></tr>
+      <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">📅 ${obj.disciplinas.map(year => year.año)}</p></td></tr>
+      <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">🏟️ ${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
+      <tr><td><p class="info-modal">Medallas: </p></td><td><p class="info-modal">🏅 ${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
       </table>
       </div>`;
       document.querySelector('#modal-athlete').appendChild(boxModal);
@@ -79,39 +79,39 @@ showAthletes(data);
 // funcionalidad del boton ordenar A-Z
 document.getElementById('a-z').addEventListener('click', () => {
   if (eventOrder === 0) {
-    dataSorted = data;
+    dataToSort = data;
   }
   if (eventOrder === 1) {
-    dataSorted = dataFilteredG;
+    dataToSort = dataFilteredG;
   }
   if (eventOrder === 2) {
-    dataSorted = dataFilteredD;
+    dataToSort = dataFilteredD;
   }
   if (eventOrder === 3) {
-    dataSorted = dataFilteredC;
+    dataToSort = dataFilteredC;
   }
 
   allAthletes.innerHTML = '';
-  showAthletes(sortedAscendent(dataSorted));
+  showAthletes(sortedAscendent(dataToSort));
 });
 
 // funcionalidad del boton ordenar Z-A
 document.getElementById('z-a').addEventListener('click', () => {
   if (eventOrder === 0) {
-    dataSorted = data;
+    dataToSort = data;
   }
   if (eventOrder === 1) {
-    dataSorted = dataFilteredG;
+    dataToSort = dataFilteredG;
   }
   if (eventOrder === 2) {
-    dataSorted = dataFilteredD;
+    dataToSort = dataFilteredD;
   }
   if (eventOrder === 3) {
-    dataSorted = dataFilteredC;
+    dataToSort = dataFilteredC;
   }
 
   allAthletes.innerHTML = '';
-  showAthletes(sortedDescendent(dataSorted));
+  showAthletes(sortedDescendent(dataToSort));
 });
 
 // funcionalidad del filtro por genero
@@ -119,11 +119,15 @@ const genderFilter = document.querySelector('#genderFilter');
 
 genderFilter.addEventListener('change', () => {
   eventOrder = 1;
-  document.querySelector('#disciplineFilter').value = '';
-  document.querySelector('#countryFilter').value = '';
   const value = genderFilter.value;
-  dataFilteredG = filterbyGender(data, value);
+  document.getElementById('disciplineFilter').value = '';
 
+  if (countrysFilter.value !== ''){
+    dataFilteredG = filterByGender(filterByCountry(data, countrysFilter.value), value);
+  } else {
+    dataFilteredG = filterByGender(data, value);
+  }
+  
   allAthletes.innerHTML = '';
   showAthletes(dataFilteredG);
 });
@@ -160,11 +164,16 @@ const disciplinesFilter = document.getElementById('disciplineFilter');
 disciplinesFilter.addEventListener('change', () => {
   eventOrder = 2;
   const value = disciplinesFilter.value;
-  dataFilteredD = filterByDiscipline(data, value);
 
-  document.getElementById('countryFilter').value = '';
+  // document.getElementById('countryFilter').value = '';
   document.getElementById('genderFilter').value = '';
 
+  if (countrysFilter.value !== ''){
+    dataFilteredD = filterByDiscipline(filterByCountry(data, countrysFilter.value), value);
+  } else {
+    dataFilteredD = filterByDiscipline(data, value);
+  }
+  
   allAthletes.innerHTML = '';
   showAthletes(dataFilteredD);
 });
@@ -190,16 +199,21 @@ const countrysFilter = document.getElementById('countryFilter');
 countrysFilter.addEventListener('change', () => {
   eventOrder = 3;
   const value = countrysFilter.value;
-  dataFilteredC = filterByCountry(data, value);
 
-
-  document.getElementById('disciplineFilter').value = '';
-  document.getElementById('genderFilter').value = '';
+  if (genderFilter.value !== ''){
+    disciplinesFilter.value = '';
+    dataFilteredC = filterByCountry(filterByGender(data, genderFilter.value), value);
+  } 
+  if (disciplinesFilter.value !== ''){
+    dataFilteredC = filterByCountry(filterByDiscipline(data, disciplinesFilter.value), value);
+  }
+  if (genderFilter.value === '' && disciplinesFilter.value === ''){
+    dataFilteredC = filterByCountry(data, value);
+  }
 
   allAthletes.innerHTML = '';
   showAthletes(dataFilteredC);
 });
-
 
 // funcionalidad del input buscar por nombre
 const searcher = document.getElementById('search');
@@ -218,13 +232,12 @@ searcher.addEventListener('input', (e) => {
   });
 });
 
-// funcionalidad del boton gotop godown
+// funcionalidad del boton go-top go-down
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > 900) {
-  document.querySelector('#go-top').classList.remove('hide');
-  document.querySelector('#go-down').classList.remove('hide');
-  }
-  else {
+    document.querySelector('#go-top').classList.remove('hide');
+    document.querySelector('#go-down').classList.remove('hide');
+  } else {
     document.querySelector('#go-top').classList.add('hide');
     document.querySelector('#go-down').classList.add('hide');
   }
@@ -233,12 +246,12 @@ window.addEventListener('scroll', () => {
   }
 });
 
-document.getElementById('go-top').addEventListener('click', () =>{
+document.getElementById('go-top').addEventListener('click', () => {
   const header = document.querySelector('.header');
-  header.scrollIntoView({behavior:"smooth"});
+  header.scrollIntoView({ behavior: 'smooth' });
 });
 
 document.getElementById('go-down').addEventListener('click', () => {
   const footer = document.querySelector('.athlos-info');
-  footer.scrollIntoView({behavior:"smooth"});
+  footer.scrollIntoView({ behavior: 'smooth' });
 });

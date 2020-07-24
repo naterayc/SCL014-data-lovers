@@ -2,7 +2,7 @@ import {
   defineFlag,
   sortedAscendent,
   sortedDescendent,
-  filterbyGender,
+  filterByGender,
   filterByDiscipline,
   filterByCountry,
 } from '../src/data.js';
@@ -113,9 +113,9 @@ describe('sortDescendent', () => {
   });
 });
 
-describe('filterbyGender', () => {
+describe('filterByGender', () => {
   it('is a function', () => {
-    expect(typeof filterbyGender).toBe('function');
+    expect(typeof filterByGender).toBe('function');
   });
 });
 
@@ -184,7 +184,7 @@ const athletesThree = [
 ];
 
 it('returns `filterbyGender`', () => {
-  expect(filterbyGender(athletesThree, 'F')).toEqual([
+  expect(filterByGender(athletesThree, 'F')).toEqual([
     {
       nombre: 'Nataliya Andrivna Burdeina',
       genero: 'F',

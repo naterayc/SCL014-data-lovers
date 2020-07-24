@@ -37,7 +37,7 @@ export const sortedDescendent = (data) => {
   return result;
 };
 // funcion para filtrar por genero
-export const filterbyGender = (data, gender) => {
+export const filterByGender = (data, gender) => {
   const filtered = data.filter(atleta => atleta.genero === gender);
   return filtered;
 };
