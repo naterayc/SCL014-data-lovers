@@ -190,7 +190,6 @@ box-sizing: border-box;
   text-align: center;
   font-size: 1rem;
   font-family: verdana;
-  font-weight: lighter;
   color:white;
 }
 
@@ -256,7 +255,6 @@ box-sizing: border-box;
   text-align: center;
   font-size: 1.2rem;
   font-family: verdana;
-  font-weight: lighter;
   color:white;
 }
 
@@ -457,7 +455,6 @@ footer{
         text-align: center;
         font-size: .8rem;
         font-family: verdana;
-        font-weight: lighter;
         color: white;
     }
     .info {
@@ -683,7 +680,6 @@ footer{
       text-align: center;
       font-size: .9rem;
       font-family: verdana;
-      font-weight: lighter;
       color: white;
   }
   .info {
@@ -903,7 +899,6 @@ footer{
         text-align: center;
         font-size: .9rem;
         font-family: verdana;
-        font-weight: lighter;
         color: white;
     }
     .info {
@@ -940,7 +935,6 @@ footer{
       text-align: center;
       font-size: 1.2rem;
       font-family: verdana;
-      font-weight: lighter;
       color:white;
     }
     .info-modal{
