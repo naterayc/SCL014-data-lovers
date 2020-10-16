@@ -7,18 +7,18 @@ import {
   filterByDiscipline,
 } from './data.js';
 
-const allAthletes = document.querySelector('#all-athletes');
-
 // filtrando la data para trabajar con los atletas desde Beijing 2008
 const athletes = dataAtletas.atletas;
 const dataDisciplines = athletes.filter(athlete => (athlete.disciplinas));
 const data = dataDisciplines.filter(athletesList => (athletesList.disciplinas[0].año > 2007));
+
+// declarando variables
+const allAthletes = document.querySelector('#all-athletes');
 let eventOrder = 0;
 let dataToSort;
 let dataFilteredD;
 let dataFilteredC;
 let dataFilteredG;
-
 
 // mostrar a todos los atletas
 const showAthletes = (dataAmostrar) => {
@@ -47,15 +47,15 @@ const showAthletes = (dataAmostrar) => {
       <img src = ${obj.genero === 'F' ? './imagenes/avatarFem.png' : './imagenes/avatarMas.png'} class="avatar2">
       <p class="name-modal">${obj.nombre}</p>
       <table>
-      <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero === 'F' ? '♀️' : '♂️' }</p></td></tr>
-      <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal">📏 ${obj.altura} cm</p></td></tr>
-      <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal">⚖️ ${obj.peso} kg</p></td></tr>
+      <tr><td><p class="info-modal">Género: </p></td><td><p class="info-modal">${obj.genero === 'F' ? '<i class="fas fa-venus"></i>' : '<i class="fas fa-mars"></i>' }</p></td></tr>
+      <tr><td><p class="info-modal">Altura: </p></td><td><p class="info-modal"><i class="fas fa-ruler-vertical"></i> ${obj.altura} cm</p></td></tr>
+      <tr><td><p class="info-modal">Peso: </p></td><td><p class="info-modal"><i class="fas fa-weight"></i> ${obj.peso} kg</p></td></tr>
       <tr><td><p class="info-modal">Deporte: </p></td><td><p class="info-modal"> ${obj.deporte}</p></td></tr>
       <tr><td><p class="info-modal">Disciplina: </p></td><td><p class="info-modal"> ${obj.disciplinas.map(item => item.disciplina)}</p></td></tr>
-      <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal">🎽 ${obj.equipo}</p></td></tr>
-      <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal">📅 ${obj.disciplinas.map(year => year.año)}</p></td></tr>
-      <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal">🏟️ ${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
-      <tr><td><p class="info-modal">Medallas: </p></td><td><p class="info-modal">🏅 ${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
+      <tr><td><p class="info-modal">País: </p></td><td><p class="info-modal"><i class="fas fa-home"></i> ${obj.equipo}</p></td></tr>
+      <tr><td><p class="info-modal">Año de Participación: </p></td><td><p class="info-modal"><i class="fas fa-calendar-alt"></i> ${obj.disciplinas.map(year => year.año)}</p></td></tr>
+      <tr><td><p class="info-modal">Sede Olímpica: </p></td><td><p class="info-modal"><i class="fas fa-archway"></i> ${obj.disciplinas.map(city => city.ciudad)}</p></td></tr>
+      <tr><td><p class="info-modal">Medallas: </p></td><td><p class="info-modal"><i class="fas fa-medal"></i> ${obj.disciplinas.map(medal => medal.medalla)}</p></td></tr>
       </table>
       </div>`;
       document.querySelector('#modal-athlete').appendChild(boxModal);
